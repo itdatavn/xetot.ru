@@ -1,0 +1,269 @@
+.xt-product-title{
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 32px;
+	margin-bottom: 16px;
+}
+.product-detail{
+	margin: 32px 0;
+}
+.product-left{
+	max-width: 770px;
+	width: 100%;
+	float: left;
+}
+/*product gallery*/
+.product-gallery{
+	margin-bottom: 32px;
+}
+.product-gallery .ms-tabs-template {
+    max-width: 1140px;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+}
+.ms-tabs-vertical-template {
+	max-width: 1065px;
+}
+.ms-tabs-template .ms-thumb-frame h3{
+	font-weight: 400;
+	font-size: 13pt;
+	margin:0;
+}
+.ms-tabs-template .ms-thumb-frame p{
+	font-size:10pt;
+	margin: 4px 0;
+}
+.ms-tabs-template .ms-thumb-frame-selected h3{
+	color:#4b8aac;
+}
+ /* Layers */
+.ms-layer.video-title {
+    color: white;
+    font-weight: 600;
+    font-size: 42px;
+    margin:0px;
+    letter-spacing:0px;
+}
+.ms-layer.video-title.video-top-title {
+    font-size: 16px;
+    color: gray;
+}
+.ms-layer.video-title.video-sub-title {
+    font-size: 22px;
+    font-weight: 300;
+}
+.ms-tabs .ms-thumb{
+	padding: 0;
+}
+.ms-tabs.ms-dir-v.ms-align-left .ms-thumb-frame .ms-thumb-ol{
+	display: none;
+}
+.ms-skin-default .ms-nav-next, .ms-skin-default .ms-nav-prev{
+	background: url('../images/icon/ic-arrow-prev.svg');
+	width: 48px;
+	height: 48px;
+}
+.ms-skin-default .ms-nav-next{
+	background: url('../images/icon/ic-arrow-next.svg');
+}
+.ms-tabs .ms-thumb-frame{
+	opacity: 0.5;
+}
+.ms-tabs .ms-thumb-frame-selected{
+	opacity: 1;
+}
+.ms-view{
+	border-radius: 8px !important;
+}
+.ms-thumb-frame img{
+	border-radius: 8px;
+}
+/*product-info*/
+.price-detail .price{
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 32px;
+	color: #61BE5A;
+}
+.price-detail .save-car{
+	width: 107px;
+	height: 32px;
+	border: 1px solid #61BE5A;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	padding-left: 5px;
+	color: #61BE5A;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.product-gab>h3{
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 32px;
+}
+.product-info ul li{
+	display: flex;
+	justify-content: space-between;
+	float: left;
+	width: 50%;
+	background: #FAFAFA;
+	border-radius: 8px;
+	max-width: 381px;
+	padding: 8px 16px;
+	margin-bottom: 8px;
+}
+.product-info ul li:nth-child(2n){
+	float: right;
+}
+.product-info .info-show{
+	font-weight: 600;
+}
+/*product-description*/
+.block-quote{
+	background: url('../images/icon/ic-quocte.svg') no-repeat;
+	background-position: top left;
+	padding-left: 40px;
+}
+.block-quote p{
+	margin-bottom: 5px;
+}
+.block-contact{
+	width: 322px;
+	height: 32px;
+	border: solid 1px #61be5a;
+	border-radius: 8px;
+	text-transform: uppercase;
+	color: #61be5a;
+	font-weight: 600;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+	padding: 0 15px;
+	float: left;
+	margin-left: 40px;
+}
+/*product-tab*/
+#info-tab{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0;
+}
+#info-tab li{
+	text-align: center;
+	padding: 12px 35px;
+	height: 49px;
+}
+#info-tab li a{
+	padding: 0;
+	color: #929495;
+	font-weight: 600;
+}
+#info-tab li.active{
+	border: 1px solid #DADBDB;
+	border-bottom: 0;	
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;	
+}
+#info-tab li.active a{
+	color: #61BE5A;
+	font-weight: 600;
+}
+#info-tab-content{
+	border: 1px solid #DADBDB;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	padding: 16px;
+}
+/*social-share & report*/
+.social-share-group{
+	border-top: 1px solid #FAFAFA;
+	padding-top: 32px;
+	margin-top: 32px;
+	display: flex;
+	align-items: center;
+}
+.report-group{
+	border-top: 1px solid #FAFAFA;
+	padding-top: 32px;
+	margin-top: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.report-group p{
+	max-width: 370px;
+	color: #929495;
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 0;
+}
+.report-group a{
+	font-weight: 600;
+	color: #FF4F5D;
+	text-transform: uppercase;
+}
+/*related-product*/
+.related-product{
+	padding: 32px 0 0;
+}
+.related-product .item-car .thumb-car{
+	margin: 0 0 16px;
+	max-width: 100%;
+}
+.related-product .item-car .thumb-car>img{
+	width: 100%;
+}
+.related-product .xt-car-info .price{
+	font-size: 22px;
+}
+/*product-right*/
+.product-right{
+	float: right;
+	max-width: 370px;
+	width: 100%;
+}
+.sell-gab .avatar{
+	flex: none;
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	margin-right: 16px;
+}
+.sell-gab .gab-text h4{
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+}
+.sell-gab .gab-text p{
+	color: #929495;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 18px;
+	margin-bottom: 8px;
+}
+.view-info{
+    color: #61be5a;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 16px;
+}
+/*box-action-button*/
+.box-action-button .block-contact{
+	height: 48px;
+	background: #61be5a;
+	color: #fff;
+	margin-left: 0;
+}
+.estimate{
+	border: 1px solid #61be5a;
+	border-radius: 8px;
+	height: 48px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 16px;
+	padding: 0 15px;
+}

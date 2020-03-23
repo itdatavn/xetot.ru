@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <rect width="24" height="24" id="artboard_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#artboard_1" clip-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="Icon-/-Social-/-Facebook-color" clip-path="url(#clip_1)">
+    <use xlink:href="#artboard_1" stroke="none" fill="#FFFFFF" />
+    <g id="Group">
+      <path d="M17.8571 3.17207e-16L2.14286 3.17207e-16C0.95939 0 1.44933e-16 0.95939 0 2.14286L0 17.8571C1.44933e-16 19.0406 0.95939 20 2.14286 20L8.27009 20L8.27009 13.2004L5.45759 13.2004L5.45759 10L8.27009 10L8.27009 7.56071C8.27009 4.78616 9.92188 3.25357 12.4518 3.25357C13.6634 3.25357 14.9304 3.46964 14.9304 3.46964L14.9304 6.19286L13.5344 6.19286C12.1589 6.19286 11.7299 7.04643 11.7299 7.92188L11.7299 10L14.8004 10L14.3094 13.2004L11.7299 13.2004L11.7299 20L17.8571 20C19.0406 20 20 19.0406 20 17.8571L20 2.14286C20 0.95939 19.0406 0 17.8571 0L17.8571 3.17207e-16Z" transform="translate(2 2)" id="Main" fill="#4267B2" stroke="none" />
+    </g>
+  </g>
+</svg>

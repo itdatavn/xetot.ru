@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>XeTot</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap&subset=vietnamese" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/jquery-ui.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/jquery.mmenu.all.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+	<div id="wrapper" class="w-100 float-left">
+		<header id="header" class="w-100 float-left">
+			<div class="container d-flex align-items-center justify-content-between">
+				<a href="#mobile-menu" class="mobile-menu d-block d-xl-none">
+					<img src="assets/images/icon/ic-menu-mobile.svg">
+				</a>
+				<div class="logo">
+					<a href="#"><img src="assets/images/logo.png"></a>
+				</div><!--logo-->
+				<div class="main-menu d-none d-xl-flex">
+					<ul class="list-unstyled d-flex mb-0">
+						<li>
+							<a href="#">
+								<img src="assets/images/icon/ic-search.svg">
+								<span>Tìm kiếm</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="assets/images/icon/ic-shop.svg">
+								<span>Cửa hàng</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="assets/images/icon/ic-notify.svg">
+								<span>Thông báo</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="assets/images/icon/ic-my-news.svg">
+								<span>Tin đăng của bạn</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="assets/images/icon/ic-blog.svg">
+								<span>Blog</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="assets/images/icon/ic-more.svg">
+								<span>Thêm</span>
+							</a>
+						</li>
+					</ul>
+				</div><!--main-menu-->
+				<div class="gr-button">
+					<a href="#" class="xt-button text-uppercase">Đăng Tin</a>
+				</div>
+			</div>
+		</header>
+		<div class="main-slider w-100 float-left">
+			<div class="owl-carousel owl-theme main-slider same-button">
+			    <div class="item">
+			    	<img src="assets/images/slider-1.jpg">
+			    	<div class="owl-content wow slideInRight">
+			    		<h2>Đúng xe, đúng giá,<br> đúng thời điểm</h2>
+			    	</div>
+			    </div>
+			    <div class="item">
+			    	<img src="assets/images/slider-1.jpg">
+			    	<div class="owl-content wow slideInRight">
+			    		<h2>Đúng xe, đúng giá,<br> đúng thời điểm</h2>
+			    	</div>
+			    </div>
+			    <div class="item">
+			    	<img src="assets/images/slider-1.jpg">
+			    	<div class="owl-content wow slideInRight">
+			    		<h2>Đúng xe, đúng giá,<br> đúng thời điểm</h2>
+			    	</div>
+			    </div>
+			</div>
+		</div><!--main-slider-->
+		<div id="main-content" class="w-100 float-left pb-5">
+			<div class="box-search w-100 float-left">
+				<div class="container">
+					<ul class="xt-filter list-unstyled">
+						<li class="active"><a href="#" class="xt-button">Tất cả</a></li>
+						<li><a href="#" class="xt-button">Xe mới</a></li>
+						<li><a href="#" class="xt-button">Xe cũ</a></li>
+					</ul>
+					<div class="inline-group d-xl-flex">
+						<input type="text" placeholder="Tìm tên xe, hãng xe, dòng xe …" class="form-control">
+						<select id="xt-city" class="form-control">
+							<option value="">Toàn Quốc</option>
+							<option value="">Hà Nội</option>
+						</select>
+						<select id="xt-loaixe" class="form-control">
+							<option value="">Loại xe</option>
+							<option value="">BMW</option>
+						</select>
+						<select id="xt-loc" class="form-control">
+							<option value="">Bộ lọc</option>
+						</select>
+						<button class="xt-button" id="search-car">Tìm</button>
+					</div>
+				</div>
+
+				<div id="popup-filter" class="search-popup">
+					<h4 class="xt-title-list">Lọc kết quả</h4>
+					<div class="form-group">
+						<label>Danh mục</label>
+						<select name="" id="" class="form-control">
+							<option value="">Ô tô</option>
+							<option value="">Ô tô</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="amount">Giá từ:</label>
+						<input type="text" id="amount" readonly>
+						<div id="slider-range"></div>
+					</div>
+					<div class="form-group">
+						<label>Sắp xếp theo</label>
+						<div class="custom-control custom-radio pl-0">
+							<input type="radio" id="lastest-news" name="customRadioInline1" class="custom-control-input" checked="">
+							<label class="custom-control-label w-100" for="lastest-news"><img src="assets/images/icon/ic-time.svg" class="mr-2">Tin mới nhất</label>
+						</div>
+						<div class="custom-control custom-radio pl-0">
+							<input type="radio" id="price-min" name="customRadioInline1" class="custom-control-input">
+							<label class="custom-control-label w-100" for="price-min"><img src="assets/images/icon/ic-time.svg" class="mr-2">Giá thấp nhất</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label>Đăng bởi</label>
+						<div class="custom-control custom-checkbox pl-0">
+							<input type="checkbox" class="custom-control-input" id="type-shop">
+							<label class="custom-control-label w-100" for="type-shop"><img src="assets/images/icon/ic-shop.svg" class="mr-2">Cửa hàng</label>
+						</div>
+						<div class="custom-control custom-checkbox pl-0">
+							<input type="checkbox" class="custom-control-input" id="type-professional">
+							<label class="custom-control-label w-100" for="type-professional"><img src="assets/images/icon/ic-user.svg" class="mr-2">Cá nhân</label>
+						</div>
+						<div class="custom-control custom-checkbox pl-0">
+							<input type="checkbox" class="custom-control-input" id="type-half">
+							<label class="custom-control-label w-100" for="type-half"><img src="assets/images/icon/ic-half.svg" class="mr-2">Bán chuyên</label>
+						</div>
+					</div>
+					<div class="form-group mb-0">
+						<button type="submit" class="xt-button">Áp dụng</button>
+					</div>
+				</div><!--popup-filter-->
+
+			</div><!--box-search-->
+			<div class="list-car w-100 float-left">
+				<div class="container">
+					<h4 class="xt-title-list">Danh sách tin</h4>
+					<div class="small-filter">
+						<select class="form-control">
+							<option value="">Toàn quốc</option>
+						</select>
+						<select class="form-control">
+							<option value="">Dòng xe</option>
+						</select>
+					</div><!--small-filter-->
+					<div class="row">
+						<div class="col-12 col-lg-6">
+							<div class="item-car d-lg-flex justify-content-between mb-32 w-100 float-left">
+								<div class="thumb-car">
+									<img src="assets/images/product/product-chevrolet1.png">
+									<div class="overlay-shop text-white d-flex align-items-center justify-content-center">
+										<img src="assets/images/icon/ic-shop.svg" class="mr-2"> Chevrolet Tân Bình
+									</div>
+									<div class="moc-boo">
+										<a href="#"><img src="assets/images/icon/ic-bookmark.svg"></a>
+									</div>
+								</div><!--thumb-carr-->
+								<div class="car-content">
+									<h3><a href="#">Xe Chevrolet Trailblazer nhập khẩu giá tốt nhất</a></h3>
+									<ul class="list-unstyled float-left w-100 mb-0">
+										<li>
+											<img src="assets/images/icon/ic-news.svg"> Mới
+										</li>
+										<li>
+											<img src="assets/images/icon/ic-auto-sell.svg"> Bán tự động
+										</li>
+										<li>
+											<img src="assets/images/icon/ic-time.svg"> 2 Ngày trước
+										</li>
+										<li>
+											<img src="assets/images/icon/ic-address.svg"> TP.HCM
+										</li>
+									</ul>
+									<div class="xt-car-info d-flex justify-content-between float-left w-100">
+										<span class="price">980.000.000 ₫</span>
+										<div class="call-action">
+											<a href="#" class="xt-button"><img src="assets/images/icon/ic-phone.svg" class="mr-2"> 090 999 ***</a>
+										</div>
+									</div>
+								</div>								
+							</div><!--item-car-->
+						</div><!--col-lg-6-->
+						<div class="col-12 col-lg-6">
+							<div class="item-car d-lg-flex justify-content-between mb-32 w-100 float-left">
+								<div class="thumb-car">
+									<img src="assets/images/product/product-chevrolet2.png">
+									<div class="overlay-shop text-white d-flex align-items-center justify-content-center">
+										<img src="assets/images/icon/ic-shop.svg" class="mr-2"> Innova Thủ Đức
+									</div>
+									<div class="moc-boo">
+										<a href="#"><img src="assets/images/icon/ic-bookmark.svg"></a>
+									</div>
+								</div><!--thumb-carr-->
+								<div class="car-content">
+									<h3><a href="#">Toyota Innova 2020 nhập khẩu giá tốt nhất, kèm nhiều khuyến mãi</a></h3>
+									<ul class="list-unstyled float-left w-100 mb-0">
+										<li>
+											<img src="assets/images/icon/ic-news.svg"> Mới
+										</li>
+										<li>
+											<img src="assets/images/icon/ic-auto-sell.svg"> Bán tự động
+										</li>
+										<li>
+											<img src="assets/images/icon/ic-time.svg"> 2 Ngày trước
+										</li>
+										<li>
+											<img src="assets/images/icon/ic-address.svg"> TP.HCM
+										</li>
+									</ul>
+									<div class="xt-car-info d-flex justify-content-between float-left w-100">
+										<span class="price">980.000.000 ₫</span>
+										<div class="call-action">
+											<a href="#" class="xt-button"><img src="assets/images/icon/ic-phone.svg" class="mr-2"> 090 999 ***</a>
+										</div>
+									</div>
+								</div>								
+							</div><!--item-car-->
+						</div><!--col-lg-6-->
+						<div class="col-12 col-lg-6">
+							<div class="item-car d-lg-flex justify-content-between mb-32 w-100 float-left">
+								<div class="thumb-car">
+									<img src="assets/images/product/product-chevrolet3.png">
+									<div class="overlay-shop text-white d-flex align-items-center justify-content-center">
+										<img src="assets/images/icon/ic-shop.svg" class="mr-2"> Chevrolet Tân Bình
+									</div>
+									<div class="moc-boo">
+										<a href="#"><img src="assets/images/icon/ic-bookmark.svg"></a>
+									</div>
+								</div><!--thumb-carr-->
+								<div class="car-content">
+									<h3><a href="#">Xe Chevrolet Trailblazer nhập khẩu giá tốt nhất</a></h3>
+									<ul class="list-unstyled float-left w-100 mb-0">
+										<li>
+											<img src="assets/images/icon/ic-news.svg"> Mới
+										</li>
+										<li>
+											<img src="assets/images/icon/ic-auto-sell.svg"> Bán tự động
+										</li>
+										<li>
+											<img src="assets/images/icon/ic-time.svg"> 2 Ngày trước
+										</li>
+										<li>
+											<img src="assets/images/icon/ic-address.svg"> TP.HCM
+										</li>
+									</ul>
+									<div class="xt-car-info d-flex justify-content-between float-left w-100">
+										<span class="price">980.000.000 ₫</span>
+										<div class="call-action">
+											<a href="#" class="xt-button"><img src="assets/images/icon/ic-phone.svg" class="mr-2"> 090 999 ***</a>
+										</div>
+									</div>
+								</div>								
+							</div><!--item-car-->
+						</div><!--col-lg-6-->
+						<div class="col-12 col-lg-6">
+							<div class="item-car d-lg-flex justify-content-between mb-32 w-100 float-left">
+								<div class="thumb-car">
+									<img src="assets/images/product/product-chevrolet4.png">
+									<div class="overlay-shop text-white d-flex align-items-center justify-content-center">
+										<img src="assets/images/icon/ic-shop.svg" class="mr-2"> Chevrolet Tân Bình
+									</div>
+									<div class="moc-boo">
+										<a href="#"><img src="assets/images/icon/ic-bookmark.svg"></a>
+									</div>
+								</div><!--thumb-carr-->
+								<div class="car-content">
+									<h3><a href="#">Xe Chevrolet Trailblazer nhập khẩu giá tốt nhất</a></h3>
+									<ul class="list-unstyled float-left w-100 mb-0">
+										<li>
+											<img src="assets/images/icon/ic-news.svg"> Mới
+										</li>
+										<li>
+											<img src="assets/images/icon/ic-auto-sell.svg"> Bán tự động
+										</li>
+										<li>
+											<img src="assets/images/icon/ic-time.svg"> 2 Ngày trước
+										</li>
+										<li>
+											<img src="assets/images/icon/ic-address.svg"> TP.HCM
+										</li>
+									</ul>
+									<div class="xt-car-info d-flex justify-content-between float-left w-100">
+										<span class="price">980.000.000 ₫</span>
+										<div class="call-action">
+											<a href="#" class="xt-button"><img src="assets/images/icon/ic-phone.svg" class="mr-2"> 090 999 ***</a>
+										</div>
+									</div>
+								</div>								
+							</div><!--item-car-->
+						</div><!--col-lg-6-->
+						<div class="col-12 col-lg-6">
+							<div class="item-car d-lg-flex justify-content-between mb-32 w-100 float-left">
+								<div class="thumb-car">
+									<img src="assets/images/product/product-chevrolet5.png">
+									<div class="overlay-shop text-white d-flex align-items-center justify-content-center">
+										<img src="assets/images/icon/ic-shop.svg" class="mr-2"> Chevrolet Tân Bình
+									</div>
+									<div class="moc-boo">
+										<a href="#"><img src="assets/images/icon/ic-bookmark.svg"></a>
+									</div>
+								</div><!--thumb-carr-->
+								<div class="car-content">
+									<h3><a href="#">Xe Chevrolet Trailblazer nhập khẩu giá tốt nhất</a></h3>
+									<ul class="list-unstyled float-left w-100 mb-0">
+										<li>
+											<img src="assets/images/icon/ic-news.svg"> Mới
+										</li>
+										<li>
+											<img src="assets/images/icon/ic-auto-sell.svg"> Bán tự động
+										</li>
+										<li>
+											<img src="assets/images/icon/ic-time.svg"> 2 Ngày trước
+										</li>
+										<li>
+											<img src="assets/images/icon/ic-address.svg"> TP.HCM
+										</li>
+									</ul>
+									<div class="xt-car-info d-flex justify-content-between float-left w-100">
+										<span class="price">980.000.000 ₫</span>
+										<div class="call-action">
+											<a href="#" class="xt-button"><img src="assets/images/icon/ic-phone.svg" class="mr-2"> 090 999 ***</a>
+										</div>
+									</div>
+								</div>								
+							</div><!--item-car-->
+						</div><!--col-lg-6-->
+						<div class="col-12 col-lg-6">
+							<div class="item-car d-lg-flex justify-content-between mb-32 w-100 float-left">
+								<div class="thumb-car">
+									<img src="assets/images/product/product-chevrolet6.png">
+									<div class="overlay-shop text-white d-flex align-items-center justify-content-center">
+										<img src="assets/images/icon/ic-shop.svg" class="mr-2"> Chevrolet Tân Bình
+									</div>
+									<div class="moc-boo">
+										<a href="#"><img src="assets/images/icon/ic-bookmark.svg"></a>
+									</div>
+								</div><!--thumb-carr-->
+								<div class="car-content">
+									<h3><a href="#">Xe Chevrolet Trailblazer nhập khẩu giá tốt nhất</a></h3>
+									<ul class="list-unstyled float-left w-100 mb-0">
+										<li>
+											<img src="assets/images/icon/ic-news.svg"> Mới
+										</li>
+										<li>
+											<img src="assets/images/icon/ic-auto-sell.svg"> Bán tự động
+										</li>
+										<li>
+											<img src="assets/images/icon/ic-time.svg"> 2 Ngày trước
+										</li>
+										<li>
+											<img src="assets/images/icon/ic-address.svg"> TP.HCM
+										</li>
+									</ul>
+									<div class="xt-car-info d-flex justify-content-between float-left w-100">
+										<span class="price">980.000.000 ₫</span>
+										<div class="call-action">
+											<a href="#" class="xt-button"><img src="assets/images/icon/ic-phone.svg" class="mr-2"> 090 999 ***</a>
+										</div>
+									</div>
+								</div>								
+							</div><!--item-car-->
+						</div><!--col-lg-6-->
+					</div><!--row-->
+				</div><!--container-->
+			</div><!--list-car-->
+			<div class="banner-adsver w-100 float-left">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-lg-6 mb-3 mb-xl-0">
+							<a href="#"><img src="assets/images/img-adver-1.png"></a>
+						</div>
+						<div class="col-12 col-lg-6">
+							<a href="#"><img src="assets/images/img-adver-2.png"></a>
+						</div>
+					</div>
+				</div>
+			</div><!--banner-adsver-->
+			<div class="brand-slider w-100 float-left">
+				<div class="container">
+					<h4 class="xt-title-list">Tìm nhanh tin rao theo hãng xe</h4>
+					<div class="owl-carousel owl-theme owl-brand-slider same-button">
+					    <div class="item">
+					    	<div class="brand-logo brand-1">
+					    		<img src="assets/images/logo-provide/logo-huyndai.png">
+					    	</div>
+					    	<div class="brand-logo brand-2">
+					    		<img src="assets/images/logo-provide/logo-ford.png">
+					    	</div>
+					    </div><!--item-->
+					    <div class="item">
+					    	<div class="brand-logo brand-1">
+					    		<img src="assets/images/logo-provide/logo-bmw.png">
+					    	</div>
+					    	<div class="brand-logo brand-2">
+					    		<img src="assets/images/logo-provide/logo-mitsubishi.png">
+					    	</div>
+					    </div><!--item-->
+					    <div class="item">
+					    	<div class="brand-logo brand-1">
+					    		<img src="assets/images/logo-provide/logo-kia.png">
+					    	</div>
+					    	<div class="brand-logo brand-2">
+					    		<img src="assets/images/logo-provide/logo-honda.png">
+					    	</div>
+					    </div><!--item-->
+					    <div class="item">
+					    	<div class="brand-logo brand-1">
+					    		<img src="assets/images/logo-provide/logo-mazda.png">
+					    	</div>
+					    	<div class="brand-logo brand-2">
+					    		<img src="assets/images/logo-provide/logo-chevrolet.png">
+					    	</div>
+					    </div><!--item-->
+					    <div class="item">
+					    	<div class="brand-logo brand-1">
+					    		<img src="assets/images/logo-provide/logo-huyndai.png">
+					    	</div>
+					    	<div class="brand-logo brand-2">
+					    		<img src="assets/images/logo-provide/logo-ford.png">
+					    	</div>
+					    </div><!--item-->
+					    <div class="item">
+					    	<div class="brand-logo brand-1">
+					    		<img src="assets/images/logo-provide/logo-bmw.png">
+					    	</div>
+					    	<div class="brand-logo brand-2">
+					    		<img src="assets/images/logo-provide/logo-mitsubishi.png">
+					    	</div>
+					    </div><!--item-->
+				    </div>	                           			
+				</div>
+			</div><!--brand-slider-->
+			<div class="blog-box w-100 float-left">
+				<div class="container">
+					<h4 class="xt-title-list">Blog</h4>
+					<div class="row">
+						<div class="col-12 col-xl-6">
+							<div class="blog-item">
+								<div class="blog-thumb">
+									<a href="#">
+										<img src="assets/images/blog-img-1.png">
+									</a>
+								</div><!--blog-thumb-->
+								<div class="blog-xcontent">
+									<h3>
+										<a href="#">Chi tiết Mitsubishi Outlander CVT 2.0 Premium 2020 – Crossover gầm cao cân bằng mọi khía cạnh</a>
+									</h3>
+									<p class="meta-blog">by <span>Thành Phạm</span> 29/02/2020</p>
+								</div><!--blog-xcontent-->
+							</div>
+						</div><!--col-xl-6-->
+						<div class="col-12 col-xl-6">
+							<div class="blog-item">
+								<div class="blog-thumb">
+									<a href="#">
+										<img src="assets/images/blog-img-2.png">
+									</a>
+								</div><!--blog-thumb-->
+								<div class="blog-xcontent">
+									<h3>
+										<a href="#">Chi tiết Mitsubishi Outlander CVT 2.0 Premium 2020 – Crossover gầm cao cân bằng mọi khía cạnh</a>
+									</h3>
+									<p class="meta-blog">by <span>Thành Phạm</span> 29/02/2020</p>
+								</div><!--blog-xcontent-->
+							</div>
+						</div><!--col-xl-6-->
+						<div class="col-12 col-xl-6">
+							<div class="blog-item">
+								<div class="blog-thumb">
+									<a href="#">
+										<img src="assets/images/blog-img-3.png">
+									</a>
+								</div><!--blog-thumb-->
+								<div class="blog-xcontent">
+									<h3>
+										<a href="#">Chi tiết Mitsubishi Outlander CVT 2.0 Premium 2020 – Crossover gầm cao cân bằng mọi khía cạnh</a>
+									</h3>
+									<p class="meta-blog">by <span>Thành Phạm</span> 29/02/2020</p>
+								</div><!--blog-xcontent-->
+							</div>
+						</div><!--col-xl-6-->
+						<div class="col-12 col-xl-6">
+							<div class="blog-item">
+								<div class="blog-thumb">
+									<a href="#">
+										<img src="assets/images/blog-img-4.png">
+									</a>
+								</div><!--blog-thumb-->
+								<div class="blog-xcontent">
+									<h3>
+										<a href="#">Chi tiết Mitsubishi Outlander CVT 2.0 Premium 2020 – Crossover gầm cao cân bằng mọi khía cạnh</a>
+									</h3>
+									<p class="meta-blog">by <span>Thành Phạm</span> 29/02/2020</p>
+								</div><!--blog-xcontent-->
+							</div>
+						</div><!--col-xl-6-->
+					</div><!--row-->
+				</div><!--container-->
+			</div><!--blog-box-->
+			<div class="handbook w-100 float-left">
+				<div class="container">
+					<h4 class="xt-title-list">SEO Handbook</h4>
+					<div class="handbook-content">
+						<img src="assets/images/img-seo-handbook.png">
+						<h3>Tiêu đề mô tả về  Mua xe bán xe <br>chuẩn SEO</h3>
+						<p>
+							Xe Tốt chính thức gia nhập thị trường Việt Nam vào đầu năm 2012, với mục đích tạo ra cho bạn một kênh rao vặt trung gian, kết nối người mua với người bán lại với nhau bằng những giao dịch cực kỳ đơn giản, tiện lợi, nhanh chóng, an toàn, mang đến hiệu quả bất ngờ. Đến nay, Xe Tốt tự hào là Website rao vặt được ưa chuộng hàng đầu Việt Nam. Hơn hàng ngàn món hời từ Bất động sản, Nhà cửa, Xe cộ, Đồ điện tử, Thú cưng, Vật dụng cá nhân... đến tìm việc làm, tìm thông tin tuyển dụng, các dịch vụ - du lịch được đăng tin, rao bán trên Xe Tốt. Với Xe Tốt, bạn có thể dễ dàng mua bán, trao đổi bất cứ một loại mặt hàng nào, dù đó là đồ cũ hay đồ mới với nhiều lĩnh vực tại Việt Nam Bất động sản: Cho thuê, Mua bán nhà đất, căn hộ chung cư, văn phòng mặt bằng kinh doanh, phòng trọ đa dạng về diện tích, vị trí Phương tiện đi lại: oto cu...
+						</p>
+					</div>
+				</div>
+			</div><!--handbook-->
+			<div class="keyword-box w-100 float-left">				
+				<div class="container">
+					<h4 class="xt-title-list">Các từ khoá phổ biến</h4>
+					<ul class="list-unstyled">
+						<li><a href="#">Đánh giá xe Isuzu Dmax 2020</a></li>
+						<li><a href="#">Đánh giá xe LandRover Evoque</a></li>
+						<li><a href="#">Đánh giá xe Volkswagen Golf</a></li>
+						<li><a href="#">Đánh giá xe Toyota Corolla Altis 2020</a></li>
+						<li><a href="#">Đánh giá xe Camry Evoque</a></li>
+						<li><a href="#">Đánh giá xe Isuzu Dmax 2020</a></li>
+						<li><a href="#">Đánh giá xe LandRover Evoque</a></li>
+						<li><a href="#">Đánh giá xe Volkswagen Golf</a></li>
+						<li><a href="#">Đánh giá xe Toyota Corolla Altis 2020</a></li>
+						<li><a href="#">Đánh giá xe Camry Evoque</a></li>
+						<li><a href="#">Đánh giá xe Isuzu Dmax 2020</a></li>
+						<li><a href="#">Đánh giá xe LandRover Evoque</a></li>
+						<li><a href="#">Đánh giá xe Volkswagen Golf</a></li>
+						<li><a href="#">Đánh giá xe Toyota Corolla Altis 2020</a></li>
+						<li><a href="#">Đánh giá xe Camry Evoque</a></li>
+					</ul>
+				</div>
+			</div>
+		</div><!--main-content-->
+		<footer id="footer" class="w-100 float-left">
+			<div class="top-footer w-100 float-left pb-3">
+				<div class="container d-xl-flex justify-content-between">
+					<div class="ft-widget ft-widget-1">
+						<div class="ft-logo mb-4">
+							<a href="#"><img src="assets/images/logo.png"></a>
+						</div>
+						<div class="ft-info">
+							<ul class="list-unstyled">
+								<li>
+									<img src="assets/images/icon/ic-address.svg">
+									<div class="info-address">
+										<h5>CÔNG TY TNHH MUA XE BÁN XE</h5>
+										<p>Phòng 1808, Tầng 18, Mê Linh Point Tower, 02 Ngô Đức Kế, Phường Bến Nghé, Quận 1, TP Hồ Chí Minh</p>
+									</div>
+								</li>
+								<li>
+									<img src="assets/images/icon/ic-phone.svg"> (028) 3866 4041
+								</li>
+								<li>
+									<img src="assets/images/icon/ic-email.svg"> Trogiup@xetot.com
+								</li>
+							</ul>
+						</div>
+					</div><!--ft-widget-1-->
+					<div class="ft-widget ft-widget-2">
+						<h4 class="title-ft">Hỗ trợ khách hàng</h4>
+						<ul class="list-unstyled">
+							<li><a href="#">Điều khoản hoạt động</a></li>
+							<li><a href="#">Chính sách bảo mật</a></li>
+							<li><a href="#">Bản quyền</a></li>
+							<li><a href="#">Hỗ trợ người bán</a></li>
+							<li><a href="#">Câu hỏi thường gặp</a></li>
+						</ul>
+					</div><!--ft-widget-2-->
+					<div class="ft-widget ft-widget-3">
+						<h4 class="title-ft">Về chúng tôi</h4>
+						<ul class="list-unstyled">
+							<li><a href="#">Giới thiệu</a></li>
+							<li><a href="#">Tuyển dụng</a></li>
+							<li><a href="#">Blog</a></li>
+						</ul>
+					</div><!--ft-widget-3-->
+					<div class="ft-widget ft-widget-4">
+						<h4 class="title-ft">Chứng nhận</h4>
+						<img src="assets/images/img-bocongthuong.png">
+					</div><!--ft-widget-4-->
+				</div>
+			</div><!--top-footer-->
+			<div class="absolute-footer w-100 float-left">
+				<div class="container d-xl-flex justify-content-between align-items-center">
+					<div class="ab-left">
+						<p>Giấy chứng nhận đăng ký doanh nghiệp số 0312120782 do Sở Kế Hoạch và Đầu Tư TPHCM cấp ngày 11/01/2013</p>
+					</div>
+					<div class="ab-social-right">
+						<ul class="list-unstyled d-flex mb-0">
+							<li><a href="#"><img src="assets/images/icon/ic-skype.svg"></a></li>
+							<li><a href="#"><img src="assets/images/icon/ic-facebook.svg"></a></li>
+							<li><a href="#"><img src="assets/images/icon/ic-zalo.svg"></a></li>
+							<li><a href="#"><img src="assets/images/icon/ic-youtube.svg"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div><!--absolute-footer-->
+		</footer>
+	</div><!--wrapper-->
+	<div id="mobile-menu">
+		<ul>
+			<li><a href="#">Cửa Hàng</a></li>
+			<li><a href="#">Thông Báo</a></li>
+			<li><a href="#">Tin đăng của bạn</a></li>
+			<li><a href="#">Blog</a></li>
+		</ul>
+	</div>
+</body>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery-ui.min.js"></script>
+<script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+<script src="assets/js/jquery.mmenu.all.js"></script>
+<script src="assets/js/jquery.fancybox.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/custom.js"></script>
+</html>

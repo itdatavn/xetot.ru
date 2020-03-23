@@ -1,0 +1,100 @@
+@media(max-width: 767px){
+	/*header*/
+	#header .gr-button .xt-button{
+		width: 120px;
+		height: 35px;
+	}
+	/*main-slider*/
+	.same-button .owl-prev span{
+		left: 15px;
+		top: 0;
+	}
+	.same-button .owl-next span{
+		right: 15px;
+		top: 0;
+	}
+	.main-slider .owl-content{
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
+	.main-slider .owl-content h2{
+		font-size: 20px;
+		line-height: 25px;
+	}
+	/*search*/
+	.search-popup input#amount{
+		min-width: 0;
+	}
+	.box-search .inline-group input{
+		max-width: 100%;
+		margin: 0 0 16px;
+	}
+	.box-search .inline-group select{
+		max-width: 100%;
+		margin-bottom: 16px;
+	}
+	.box-search #xt-loc{
+		width: 30%;
+		float: left;
+	}
+	.box-search .inline-group .xt-button{
+		width: 65%;
+		float: right;
+	}
+	/*listcar*/
+	.item-car .thumb-car{
+		max-width: 100%;
+		margin: 0 0 16px;
+	}
+	.item-car .thumb-car>img{
+		width: 100%;
+	}
+	/*brandlogo*/
+	.brand-logo{
+		max-width: 100%;
+	}
+	.brand-slider .owl-prev span{
+		left: 0;
+	}
+	.brand-slider .owl-next span{
+		right: 0;
+	}
+	/*blog*/
+	.blog-item{
+		display: block;
+	}
+	.blog-item .blog-thumb{
+		max-width: 100%;
+		margin: 0 0 16px;
+	}
+	.blog-thumb>a>img{
+		width: 100%;
+	}
+	/*handbook*/
+	.handbook-content img{
+		margin: 0 0 16px;
+	}
+	/*product-detail*/
+	.product-info ul li{
+		width: 100%;
+	}
+	.product-right{
+		border-top: 1px solid #FAFAFA;
+		padding-top: 32px;
+		margin-top: 32px;
+		max-width: 100%;
+	}
+	#info-tab li{
+		border: 1px solid #DADBDB;
+		border-bottom: 0;
+		border-radius: 0;
+	}
+	#info-tab li.active{
+		border-radius: 0;
+	}
+	#info-tab li:first-child{
+		border-top-right-radius: 8px;
+		border-top-left-radius: 8px;
+	}
+}
