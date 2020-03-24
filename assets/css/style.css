@@ -23,6 +23,35 @@ a:focus, button:focus{
 	outline: none;
 	box-shadow: none;
 }
+.page-link{
+	border: none;
+	color: #96a8b4;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	padding: 0;
+	margin-right: 8px;
+	border: 1px solid #fff;
+}
+.page-item.active .page-link, .page-link:hover{
+	background: #fff;
+	border: 1px solid #61BE5A;
+	color: #61BE5A;
+	width: 40px;
+	height: 40px;
+	border-radius: 8px;
+	padding: 0;
+	text-align: center;
+	line-height: 40px;
+}
+.custom-control-input:checked~.custom-control-label::before{
+	background: #61BE5A;
+	border-color: #61BE5A;
+}
+.color-green{
+	color: #61BE5A;
+}
 .form-control:focus{
 	outline: none;
 	box-shadow: none;
@@ -46,6 +75,12 @@ a:focus, button:focus{
 	line-height: 36px;
 	color: #0A0A0A;
 	margin-bottom: 30px;
+}
+.xt-product-title{
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 32px;
+	margin-bottom: 16px;
 }
 .container{
 	max-width: 1200px;

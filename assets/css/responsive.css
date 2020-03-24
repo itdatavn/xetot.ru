@@ -31,7 +31,7 @@
 		margin: 0 0 16px;
 	}
 	.box-search .inline-group select{
-		max-width: 100%;
+		max-width: 100% !important;
 		margin-bottom: 16px;
 	}
 	.box-search #xt-loc{
@@ -96,5 +96,35 @@
 	#info-tab li:first-child{
 		border-top-right-radius: 8px;
 		border-top-left-radius: 8px;
+	}
+	/*search-page*/
+	.box-list-category ul{
+		height: auto;
+		padding: 32px 0;
+	}
+	.list-archive-item>ul>li{
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	.list-archive-item ul li .archive-thumb{
+		margin: 0 0 16px;
+	}
+	.list-archive-item ul li .archive-thumb img{
+		width: 100%;
+	}
+	.meta-date{
+		position: inherit;
+		float: left;
+		width: 100%;
+		margin-top: 8px;
+		top: 0;
+	}
+	.list-archive-item .xt-car-info .price{
+		display: block;
+		margin-bottom: 8px;
+	}
+	.main-right{
+		max-width: 100%;
 	}
 }
