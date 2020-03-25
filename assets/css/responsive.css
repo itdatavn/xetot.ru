@@ -98,6 +98,10 @@
 		border-top-left-radius: 8px;
 	}
 	/*search-page*/
+	.search-group-archive select{
+		margin-bottom: 16px;
+		max-width: 100%;
+	}
 	.box-list-category ul{
 		height: auto;
 		padding: 32px 0;
