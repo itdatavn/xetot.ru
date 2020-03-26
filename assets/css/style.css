@@ -85,6 +85,9 @@ a:focus, button:focus{
 .container{
 	max-width: 1200px;
 }
+.color-grey{
+	color: #929495;
+}
 .bg-grey{
 	background: #fafafa;
 }
