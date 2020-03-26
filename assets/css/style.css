@@ -171,6 +171,7 @@ body::-webkit-scrollbar {
 #header .gr-button .xt-button{
 	height: 48px;
 	width: 170px;
+	color: #fff;
 }
 .same-button .owl-nav{
 	position: absolute;
