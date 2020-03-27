@@ -69,6 +69,16 @@ a:focus, button:focus{
 	justify-content: center;
 	border: none;
 }
+.btn-white-bg{
+	background: #fff;
+	border: 1px solid #61BE5A;
+	color: #61BE5A;
+}
+.btn-grey-bg{
+	background: #fff;
+	border: 1px solid #DADBDB;
+	color: #929495;
+}
 .xt-title-list{
 	font-weight: 600;
 	font-size: 24px;

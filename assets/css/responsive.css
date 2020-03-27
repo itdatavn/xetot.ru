@@ -139,4 +139,8 @@
 	.main-right{
 		max-width: 100%;
 	}
+	/*box-account*/
+	.box-account{
+		padding: 16px;
+	}
 }
