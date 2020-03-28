@@ -97,5 +97,21 @@ $(document).ready(function(){
         //$(this).attr('href', $(this).attr('data-href'));
         //$(this).tab('show');
     });
+    //Profile Page Tab
+    $('#profile-tab a').click(function (e) {
+        e.preventDefault();
+        // alert( $(this).attr('data-href'));
+        var targetId = $(this).attr('data-href');
+        //remove active class of li
+        $('#profile-tab .active').removeClass('show active');
+        $(this).parent('li').addClass('show active');
+
+        //var currentId = $('.custom-tab-panes .active').attr('id');
+        $('#profile-tab-content .tab-pane').removeClass('active');
+        $(targetId).addClass('show active');
+
+        //$(this).attr('href', $(this).attr('data-href'));
+        //$(this).tab('show');
+    });
 });
 
