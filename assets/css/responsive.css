@@ -6,7 +6,10 @@
 @media(max-width: 767px){
 	.w-xs-100{
 		width: 100% !important;
-	}	
+	}
+	.p-16{
+		padding: 16px;
+	}
 	/*header*/
 	#header .gr-button .xt-button{
 		width: 120px;
@@ -142,5 +145,9 @@
 	/*box-account*/
 	.box-account{
 		padding: 16px;
+	}
+	/*store*/
+	.store-right .search-group-archive select{
+		max-width: 100%;
 	}
 }

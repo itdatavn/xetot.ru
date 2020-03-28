@@ -69,6 +69,19 @@ a:focus, button:focus{
 	justify-content: center;
 	border: none;
 }
+.xt-store-btn{
+	background: #61BE5A;
+	border-radius: 8px;
+	display: block;
+	height: 40px;
+	color: #fff;
+	width: 162px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	font-weight: 600;
+}
 .btn-white-bg{
 	background: #fff;
 	border: 1px solid #61BE5A;
@@ -100,6 +113,9 @@ a:focus, button:focus{
 }
 .bg-grey{
 	background: #fafafa;
+}
+.bottom-border-grey{
+	border-bottom: 1px solid #FAFAFA;
 }
 body{
 	font-family: 'Montserrat', sans-serif;
