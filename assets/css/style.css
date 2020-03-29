@@ -4,6 +4,17 @@
 .mb-40{
 	margin-bottom: 40px !important;
 }
+.p32{
+	padding: 32px;
+}
+.medium-font{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+}
+.border-radius8{
+	border-radius: 8px;
+}
 .disabled{
 	display: none;
 }

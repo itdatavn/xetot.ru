@@ -1,3 +1,8 @@
+@media(width: 1024px){
+	.store-right{
+		max-width: 600px;
+	}
+}
 @media(min-width: 768px) and (max-width: 992px){
 	.w-md-auto{
 		width: auto !important;
@@ -150,5 +155,8 @@
 	.store-right .search-group-archive select{
 		max-width: 100%;
 	}
-	
+	/*follow*/
+	.action-follow{
+		margin: 16px 0 0 80px;
+	}	
 }

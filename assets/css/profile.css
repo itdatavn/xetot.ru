@@ -67,3 +67,14 @@
 	padding-bottom: 16px;
 	margin-bottom: 16px;
 }
+.action-follow .xt-button{
+	display: flex;
+	color: #fff;
+	text-transform: uppercase;
+	width: 105px;
+	height: 32px;
+}
+/*other-profile*/
+.other-profile #profile-tab-content .save-news{
+	width: 107px;
+}
