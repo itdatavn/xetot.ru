@@ -49,3 +49,21 @@
 	font-size: 16px;
 	font-weight: 600;
 }
+/*follow*/
+.store-right .follow-count span{
+	font-size: 16px;
+	line-height: 24px;
+	color: #929495;
+}
+.info-people .avatar{
+	flex: none;
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	margin-right: 16px;
+}
+.list-follow li:not(:last-child){
+	border-bottom: 1px solid #FAFAFA;
+	padding-bottom: 16px;
+	margin-bottom: 16px;
+}

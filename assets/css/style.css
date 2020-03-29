@@ -1,5 +1,8 @@
 .mb-32{
-	margin-bottom: 32px;
+	margin-bottom: 32px !important;
+}
+.mb-40{
+	margin-bottom: 40px !important;
 }
 .disabled{
 	display: none;
@@ -22,6 +25,9 @@ a:hover{
 a:focus, button:focus{
 	outline: none;
 	box-shadow: none;
+}
+.font600{
+	font-weight: 600;
 }
 .page-link{
 	border: none;
@@ -68,6 +74,19 @@ a:focus, button:focus{
 	align-items: center;
 	justify-content: center;
 	border: none;
+}
+.xt-button-white{
+	box-sizing: border-box;
+	height: 32px;
+	width: 131px;
+	border: 1px solid #61BE5A;
+	border-radius: 8px;
+	color: #61BE5A;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
 }
 .xt-store-btn{
 	background: #61BE5A;
