@@ -2,10 +2,22 @@
 	.store-right{
 		max-width: 600px;
 	}
+	/*profile*/
+	.profile-detail-left{
+		max-width: 625px;
+	}
+	.profile-detail-right{
+		max-width: 330px;
+	}
 }
 @media(min-width: 768px) and (max-width: 992px){
 	.w-md-auto{
 		width: auto !important;
+	}
+	/*profile*/
+	.profile-detail-right{
+		max-width: 100%;
+		margin-top: 30px;
 	}
 }
 @media(max-width: 767px){
@@ -14,6 +26,9 @@
 	}
 	.p-16{
 		padding: 16px;
+	}
+	.p32 {
+	    padding: 16px;
 	}
 	/*header*/
 	#header .gr-button .xt-button{
@@ -158,5 +173,14 @@
 	/*follow*/
 	.action-follow{
 		margin: 16px 0 0 80px;
-	}	
+	}
+	/*profile*/
+	.profile-detail-right{
+		max-width: 100%;
+		margin-top: 32px;
+	}
+	.detail-avatar{
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
 }

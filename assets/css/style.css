@@ -129,6 +129,13 @@ a:focus, button:focus{
 	color: #0A0A0A;
 	margin-bottom: 30px;
 }
+.xt-title-16{
+	color: #000000;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 24px;
+}
 .xt-product-title{
 	font-size: 22px;
 	font-weight: 600;

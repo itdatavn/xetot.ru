@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>9462212A-9F46-419B-A7E6-153DC869C848</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M6.71923469,15.6946375 C6.46816022,15.9545941 6.0963568,16.0588501 5.74672736,15.9673346 C5.39709793,15.8758192 5.12405297,15.6027742 5.03253753,15.2531448 C4.94102209,14.9035154 5.0452781,14.5317119 5.30523469,14.2806375 L11.3052347,8.28063747 C11.6838472,7.9019651 12.2935578,7.88873928 12.6882347,8.25063747 L18.6882347,13.7506375 C19.0952685,14.123982 19.1225792,14.7566036 18.7492347,15.1636375 C18.3758902,15.5706713 17.7432685,15.597982 17.3362347,15.2246375 L12.0422347,10.3716375 L6.71923469,15.6946375 L6.71923469,15.6946375 Z" id="path-1"></path>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="7.3.1-Profile-Detail" transform="translate(-1249.000000, -289.000000)">
+            <g id="Right-Card" transform="translate(935.000000, 136.000000)">
+                <g id="Money" transform="translate(32.000000, 153.000000)">
+                    <g id="Head">
+                        <g id="Icon-/-2)-Navigation-/-Arrow-down" transform="translate(282.000000, 0.000000)">
+                            <g id="Group">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="🎨-Main" fill="#0B0F17" transform="translate(12.006117, 11.993819) rotate(-180.000000) translate(-12.006117, -11.993819) " xlink:href="#path-1"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
