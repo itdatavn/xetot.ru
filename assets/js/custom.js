@@ -1,6 +1,10 @@
 $(document).ready(function(){
     new WOW().init();
     jQuery('#mobile-menu').mmenu();
+    //menu profile toggle
+    $('.menu-profile>a').click(function(){
+        $('.dropdown-xt').toggle('slow');
+    });
     //Range Price SLider
     $(function() {
         $( "#slider-range" ).slider({

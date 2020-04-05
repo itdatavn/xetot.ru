@@ -233,7 +233,6 @@ body::-webkit-scrollbar {
 	color: #61BE5A;
 }
 #header .main-menu ul li .dropdown-menu{
-	height: 516px;
 	width: 320px;
 	box-shadow: 0 6px 24px 0 rgba(11,15,23,0.12);
 	border-radius: 8px;
@@ -242,9 +241,6 @@ body::-webkit-scrollbar {
 	top: 83px;
 	right: 0;
 	left: auto;
-}
-#header .main-menu ul li.menu-has-children:hover .dropdown-menu{
-	display: block;
 }
 .profile-avatar{
 	flex: none;
