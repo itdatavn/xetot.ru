@@ -154,6 +154,23 @@ a:focus, button:focus{
 .bottom-border-grey{
 	border-bottom: 1px solid #FAFAFA;
 }
+.if-vip{
+	height: 26px;
+	width: 38px;
+	border-radius: 4px;
+	background-color: #F9DF13;
+	font-size: 12px;
+	font-weight: 600;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	text-align: center;
+	line-height: 26px;
+}
+.if-hot{
+	background-color: #FF5656;
+	color: #fff;
+}
 body{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;

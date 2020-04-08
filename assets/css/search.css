@@ -33,6 +33,7 @@
 .list-archive-item ul li .archive-thumb{
 	margin-right: 16px;
 	flex: none;
+	position: relative;
 }
 .list-archive-item ul li .archive-text h3{
 	line-height: 0;
