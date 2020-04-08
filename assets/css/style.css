@@ -228,6 +228,8 @@ body::-webkit-scrollbar {
 	display: block;
 	color: #000000;
 	margin-top: 5px;
+	display: flex;
+	align-items: center;
 }
 #header .main-menu ul li:hover span{
 	color: #61BE5A;
@@ -270,6 +272,10 @@ body::-webkit-scrollbar {
 	height: 40px;
 	margin-bottom: 4px;
 	line-height: 40px;
+}
+.dropdown-xt ul li a:hover{
+	background: #FAFAFA;
+	border-radius: 8px;
 }
 .dropdown-xt ul{
 	border-bottom: 1px solid #FAFAFA;
