@@ -116,6 +116,6 @@ $(document).ready(function(){
 
         //$(this).attr('href', $(this).attr('data-href'));
         //$(this).tab('show');
-    });
+    });            
 });
 

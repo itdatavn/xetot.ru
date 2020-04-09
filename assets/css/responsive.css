@@ -31,9 +31,17 @@
 	    padding: 16px;
 	}
 	/*header*/
+	#header{
+		height: 60px;
+		display: flex;
+		align-items: center;
+	}
 	#header .gr-button .xt-button{
 		width: 120px;
 		height: 35px;
+	}
+	.logo img{
+		max-width: 100px;
 	}
 	/*main-slider*/
 	.same-button .owl-prev span{
@@ -182,5 +190,44 @@
 	.detail-avatar{
 		margin: 0 auto;
 		margin-bottom: 30px;
+	}
+	/*create store*/
+	.item-storereact{
+		margin-bottom: 16px;
+	}
+	.steps-box ul{
+		display: block;
+	}
+	.steps-box ul li{
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 15px;
+	}
+	.steps-box-item{
+		max-width: 100%;
+	}
+	.steps-box ul li:nth-child(2):after{
+		display: none;
+	}
+	.pay-left, .pay-right{
+		padding: 16px;
+	}
+	.right-form-info{
+		padding: 16px;
+	}
+	.form-inline-user label{
+		margin-bottom: 8px;
+		text-align: left;
+	}
+	.step-info-two .detail-avatar{
+		float: none;
+		text-align: center;
+	}
+	.note-inform{
+		font-size: 12px;
+	}
+	.button-action-next .button-ac{
+		max-width: 170px;
+		font-size: 12px;
 	}
 }
