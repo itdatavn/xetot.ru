@@ -129,15 +129,25 @@
 	font-weight: 600;
 	text-transform: uppercase;
 }
-.form-edit-profile input{
+.form-edit-profile input, .form-edit-profile select{
 	background: url('../images/icon/ic-user.svg') no-repeat;
 	background-position: 16px !important;
 	padding-left: 48px;
 	height: 48px;
 	border-radius: 8px;
+	color: #929495;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: 24px;
 }
 .form-edit-profile .input-address{
 	background: url('../images/icon/ic-address.svg') no-repeat;
+}
+.form-edit-profile .input-date{
+	background: url('../images/icon/ic-calendar.svg') no-repeat;
+}
+.form-edit-profile .input-sex{
+	background: url('../images/icon/ic-sex.svg') no-repeat;
 }
 .form-edit-profile .form-group{
 	position: relative;
@@ -157,6 +167,13 @@
 	font-size: 14px;
 	color: #000000;
 	font-weight: 600;
+}
+.form-edit-profile .xt-button{
+	height: 48px;
+	width: 138px;
+	float: right;
+	margin-top: 15px;
+	text-transform: uppercase;
 }
 .hidden-inputclick {
     width: 0.1px;
