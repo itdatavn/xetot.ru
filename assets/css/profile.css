@@ -149,6 +149,10 @@
 .form-edit-profile .input-sex{
 	background: url('../images/icon/ic-sex.svg') no-repeat;
 }
+.form-edit-profile .input-password{
+	background: url('../images/icon/ic-lock.svg') no-repeat !important;
+	background-position: 16px !important;
+}
 .form-edit-profile .form-group{
 	position: relative;
 }
