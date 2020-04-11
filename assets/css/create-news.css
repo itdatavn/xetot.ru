@@ -5,6 +5,33 @@
 .box-steps-title h2{
 	margin-bottom: 8px;
 }
+.action-click a.prev{
+	position: absolute;
+	left: 15px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	top: 10px;
+}
+.action-click a.next{
+	position: absolute;
+	right: 15px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	top: 10px;
+}
+.action-click a span{
+	box-sizing: border-box;
+	height: 48px;
+	width: 48px;
+	border: 1px solid #61BE5A;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+}
 .category-item{
 	background: #FFFFFF;
 	border-radius: 8px;
@@ -36,9 +63,6 @@
 	color: #000000;
 	margin-bottom: 0;
 }
-.step-create{
-	display: none;
-}
 .create-step-2 ul{
 	max-width: 770px;
 	display: flex;
@@ -53,4 +77,83 @@
 	border-radius: 8px;
 	padding: 32px 0;
 	text-align: center;
+}
+.create-step-3 .list-category-xt{
+	max-width: 770px;
+	margin: 0 auto;
+}
+.category-item-description ul li{
+	position: relative;
+	margin-bottom: 4px;
+	padding-left: 32px;
+}
+.category-item-description ul li:before{
+	content: '';
+	background: #DADBDB; 
+	height: 6px;
+	width: 6px;
+	position: absolute;
+	left: 0;
+	border-radius: 50%;
+	top: 8px;
+}
+.category-item-description h5{
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+.step-scroll ul{
+    max-width: 770px;
+    margin: 0 auto;
+    height: 500px;
+    overflow: auto;
+    padding-right: 10px;
+}
+.step-scroll ul::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+.step-scroll ul li{
+	height: 48px;
+	width: 100%;
+	border-radius: 8px;
+	background-color: #FFFFFF;
+	margin-bottom: 8px;
+	padding: 0 16px;
+	display: flex;
+	border: 1px solid #fff;
+	cursor: pointer;
+	align-items: center;
+}
+.step-scroll ul li:hover, .step-scroll ul li.active{
+	border: 1px solid #61BE5A;
+}
+.step-scroll ul li:hover a, .step-scroll ul li.active a{
+	color: #61BE5A;
+}
+.form-select-brand, .search-autocomplete{
+	max-width: 770px;
+	margin: 0 auto;
+}
+.form-select-brand ul li .item-brands{
+	border-radius: 8px;
+	display: unset;
+	min-height: 144px;;
+	height: 144px;
+	width: 170px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.form-select-brand .category-item.active:after{
+	top: 8px;
+	right: 8px;
+}
+.form-select-brand input, .search-autocomplete input{
+	box-sizing: border-box;
+	height: 48px;
+	width: 100%;
+	border: 1px solid #DADBDB;
+	border-radius: 8px;
+	margin-bottom: 32px;
 }

@@ -230,4 +230,12 @@
 		max-width: 170px;
 		font-size: 12px;
 	}
+	/*create news dangtin*/
+	.action-click {
+	    display: flex;
+	    height: 70px;
+	}
+	.form-select-brand ul li .item-brands{
+		width: 100%;
+	}
 }
