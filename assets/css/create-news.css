@@ -77,6 +77,20 @@
 	border-radius: 8px;
 	padding: 32px 0;
 	text-align: center;
+	position: relative;
+	border: 1px solid transparent;
+}
+.create-step-2 ul li .item-step-2.active{
+	border: 1px solid #61BE5A;
+}
+.create-step-2 ul li .item-step-2.active:after {
+    background: url(../images/icon/category/ic-check.svg);
+    position: absolute;
+    content: '';
+    right: 16px;
+    top: 16px;
+    width: 24px;
+    height: 24px;
 }
 .create-step-3 .list-category-xt{
 	max-width: 770px;
