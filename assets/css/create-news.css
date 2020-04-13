@@ -171,3 +171,36 @@
 	border-radius: 8px;
 	margin-bottom: 32px;
 }
+.form-border-bold{
+	border: 1px solid #0B0F17 !important;
+}
+.suggest-keyword ul li{
+	height: 32px;
+	min-width: 67px;
+	border: 1px solid #929495;
+	border-radius: 4px;
+	float: left;
+	text-align: center;
+	line-height: 32px;
+	margin-right: 8px;
+	padding: 0 8px;
+	margin-bottom: 8px;
+}
+.suggest-color ul li{
+	border-color: transparent;
+}
+.suggest-color ul li.bg-white{
+	border-color: #929495;
+}
+.suggest-color ul li.bg-white a{
+	color: #000000;
+}
+.suggest-color ul li a{
+	color: #fff;
+}
+.suggest-keyword label{
+	color: #929495;
+	font-size: 12px;
+	font-weight: 600;
+	margin-bottom: 16px;
+}

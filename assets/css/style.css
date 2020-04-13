@@ -157,6 +157,24 @@ a:focus, button:focus{
 .bg-grey{
 	background: #fafafa;
 }
+.bg-black{
+	background: #000;
+}
+.bg-red{
+	background: #FF5656;
+}
+.bg-blue{
+	background: #2A77FC;
+}
+.bg-green{
+	background: #61BE5A;
+}
+.bg-yellow{
+	background: #F9DF13;
+}
+.bg-orange{
+	background: #FF7A1F;
+}
 .bottom-border-grey{
 	border-bottom: 1px solid #FAFAFA;
 }
