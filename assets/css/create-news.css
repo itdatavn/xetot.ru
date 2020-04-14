@@ -163,13 +163,18 @@
 	top: 8px;
 	right: 8px;
 }
-.form-select-brand input, .search-autocomplete input{
+.form-select-brand input, .search-autocomplete input, .search-autocomplete textarea{
 	box-sizing: border-box;
 	height: 48px;
 	width: 100%;
 	border: 1px solid #DADBDB;
 	border-radius: 8px;
 	margin-bottom: 32px;
+	color: #929495;
+	font-size: 14px;
+}
+.search-autocomplete textarea{
+	height: auto;
 }
 .form-border-bold{
 	border: 1px solid #0B0F17 !important;
@@ -203,4 +208,18 @@
 	font-size: 12px;
 	font-weight: 600;
 	margin-bottom: 16px;
+}
+.form-creation-news{
+	max-width: 770px;
+	margin: 0 auto;
+}
+.label-note{
+	color: #929495;
+}
+.list-suggest-text .category-item-description:first-child{
+	max-width: 370px;
+}
+.search-autocomplete .input-weight{
+	color: #000000;
+	font-weight: 600;
 }

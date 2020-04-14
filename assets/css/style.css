@@ -72,6 +72,9 @@ a:focus, button:focus{
 .color-green{
 	color: #61BE5A;
 }
+.color-red{
+	color: #FF5656;
+}
 .form-control:focus{
 	outline: none;
 	box-shadow: none;
