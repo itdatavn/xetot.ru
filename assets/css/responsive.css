@@ -238,4 +238,8 @@
 	.form-select-brand ul li .item-brands{
 		width: 100%;
 	}
+	.form-upload-snews .box{
+		height: auto;
+		padding: 16px;
+	}
 }
