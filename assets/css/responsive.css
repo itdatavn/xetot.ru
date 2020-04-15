@@ -19,6 +19,9 @@
 		max-width: 100%;
 		margin-top: 30px;
 	}
+	.preview-gallery ul li{
+		max-width: 134px;
+	}
 }
 @media(max-width: 767px){
 	.w-xs-100{

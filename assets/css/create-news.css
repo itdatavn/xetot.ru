@@ -260,6 +260,9 @@
 	margin-right: 16px;
 	margin-bottom: 16px;
 }
+.preview-gallery ul li:nth-child(5n){
+	margin-right: 0;
+}
 .preview-gallery ul li img{
 	max-width: 141px;
 }
