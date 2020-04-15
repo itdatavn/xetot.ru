@@ -271,3 +271,10 @@
 	top: 8px;
 	right: 8px;
 }
+.create-final-step .xt-button{
+	height: 48px;
+	width: 187px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	margin-top: 16px;
+}
