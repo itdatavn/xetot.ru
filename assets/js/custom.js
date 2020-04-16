@@ -87,35 +87,39 @@ $(document).ready(function(){
     });
     //Product Tab Content
     $('#info-tab a').click(function (e) {
-        e.preventDefault();
-        // alert( $(this).attr('data-href'));
-        var targetId = $(this).attr('data-href');
-        //remove active class of li
+        e.preventDefault();        
+        var targetId = $(this).attr('data-href');        
         $('#info-tab .active').removeClass('show active');
-        $(this).parent('li').addClass('show active');
-
-        //var currentId = $('.custom-tab-panes .active').attr('id');
+        $(this).parent('li').addClass('show active');        
         $('#info-tab-content .tab-pane').removeClass('active');
-        $(targetId).addClass('show active');
-
-        //$(this).attr('href', $(this).attr('data-href'));
-        //$(this).tab('show');
+        $(targetId).addClass('show active');        
+    });
+    //Post Tab Content
+    $('#post-tab a').click(function (e) {
+        e.preventDefault();        
+        var targetId = $(this).attr('data-href');        
+        $('#post-tab .active').removeClass('show active');
+        $(this).parent('li').addClass('show active');        
+        $('#post-tab-content .tab-pane').removeClass('active');
+        $(targetId).addClass('show active');        
+    });
+    //Category Tab Content
+    $('#category-tab a').click(function (e) {
+        e.preventDefault();        
+        var targetId = $(this).attr('data-href');        
+        $('#category-tab .active').removeClass('show active');
+        $(this).parent('li').addClass('show active');        
+        $('#category-tab-content .tab-pane').removeClass('active');
+        $(targetId).addClass('show active');        
     });
     //Profile Page Tab
     $('#profile-tab a').click(function (e) {
-        e.preventDefault();
-        // alert( $(this).attr('data-href'));
-        var targetId = $(this).attr('data-href');
-        //remove active class of li
+        e.preventDefault();        
+        var targetId = $(this).attr('data-href');        
         $('#profile-tab .active').removeClass('show active');
-        $(this).parent('li').addClass('show active');
-
-        //var currentId = $('.custom-tab-panes .active').attr('id');
+        $(this).parent('li').addClass('show active');        
         $('#profile-tab-content .tab-pane').removeClass('active');
-        $(targetId).addClass('show active');
-
-        //$(this).attr('href', $(this).attr('data-href'));
-        //$(this).tab('show');
+        $(targetId).addClass('show active');        
     });            
 });
 

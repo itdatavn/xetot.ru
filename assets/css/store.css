@@ -73,3 +73,112 @@
 .store-right .list-archive-item ul li .archive-text h3{
 	max-width: 380px;
 }
+.top-post-user{
+	padding: 32px;
+	border-radius: 8px;
+	display: flex;
+	justify-content: space-between;
+}
+.top-post-user .tp-left img{
+	flex: none;
+	width: 64px;
+	height: 64px;
+	margin-right: 16px;
+}
+.tp-content h4{
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 24px;
+}
+.tp-content p{
+	color: #929495;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 18px;
+	margin-bottom: 8px;
+}
+.tp-right .xt-button{
+	width: 162px;
+	height: 48px;
+	text-transform: uppercase;
+}
+#post-tab{
+	background: #FAFAFA;
+	border-radius: 8px;
+}
+#post-tab li a{
+	color: #929495;
+	font-size: 16px;
+	font-weight: 600;
+	height: 40px;
+	padding: 0 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#post-tab li a:hover, #post-tab li.active a{
+	background: #61BE5A;
+	border-radius: 8px;
+	color: #fff;
+}
+.your-post-user .box-list-category ul{
+	max-width: 706px;
+	overflow-x: scroll;
+	white-space: nowrap;
+}
+.your-post-user .box-list-category ul::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+/* Handle */
+.your-post-user .box-list-category ul::-webkit-scrollbar-thumb {
+	background: #DADBDB; 
+}
+/* Handle on hover */
+.your-post-user .box-list-category ul::-webkit-scrollbar-thumb:hover {
+	background: #DADBDB; 
+}
+.your-post-user .box-list-category ul li{
+	display: inline-block;
+	margin-right: 0;
+	padding-top: 15px;
+}
+.your-post-user .box-list-category ul li.active p{
+	color: #61BE5A;
+}
+#category-tab-content .archive-text h3{
+	line-height: 0;
+	max-width: 380px;
+}
+#category-tab-content .archive-text h3 a{
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+}
+#category-tab-content .archive-thumb{
+	flex: none;
+	margin-right: 16px;
+}
+#category-tab-content .call-action .save-news{
+	width: 131px;
+}
+#category-tab-content .meta-date{
+	top: 0;
+}
+.want-right .xt-button{
+	height: 48px;
+	width: 138px;
+	text-transform: uppercase;
+}
+.want-left h4{
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0;
+	line-height: 24px;
+	margin-bottom: 4px;
+}
+.want-left span{
+	font-size: 12px;
+	color: #929495;
+}

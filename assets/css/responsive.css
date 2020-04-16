@@ -22,6 +22,10 @@
 	.preview-gallery ul li{
 		max-width: 134px;
 	}
+	/*yourpost*/
+	#category-tab-content .call-action{
+		float: right;
+	}
 }
 @media(max-width: 767px){
 	.w-xs-100{
@@ -244,5 +248,16 @@
 	.form-upload-snews .box{
 		height: auto;
 		padding: 16px;
+	}
+	/*yourpost*/
+	#category-tab-content .archive-thumb{
+		margin-right: 0;
+		margin-bottom: 16px;
+	}
+	#category-tab-content .archive-thumb img{
+		width: 100%;
+	}
+	#category-tab-content .call-action{
+		float: right;
 	}
 }

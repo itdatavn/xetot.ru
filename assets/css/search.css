@@ -70,6 +70,8 @@
 	position: absolute;
 	top: 15px;
 	right: 0;
+	color: #929495;
+	font-size: 12px;
 }
 .main-right{
 	float: right;
