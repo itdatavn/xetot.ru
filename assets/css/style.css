@@ -268,6 +268,9 @@ body::-webkit-scrollbar {
 	position: relative;
 	padding: 15px 0;
 }
+#header .main-menu>ul>li a{
+	position: relative;
+}
 #header .main-menu ul li span{
 	display: block;
 	color: #000000;
@@ -387,6 +390,17 @@ body::-webkit-scrollbar {
 	left: 0;
 	right: 0;
 	bottom: 0;
+}
+.count-notify{
+	width: 20px;
+	height: 20px;
+	font-size: 10px;
+	border-radius: 50%;
+	background: red;
+	color: #fff;
+	position: absolute;
+	top: -5px;
+	right: -15px;
 }
 /*========================= Main Content ==================*/
 /*Box Search*/
