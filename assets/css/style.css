@@ -271,14 +271,14 @@ body::-webkit-scrollbar {
 #header .main-menu>ul>li a{
 	position: relative;
 }
-#header .main-menu ul li span{
+#header .main-menu>ul>li a>span{
 	display: block;
 	color: #000000;
 	margin-top: 5px;
 	display: flex;
 	align-items: center;
 }
-#header .main-menu ul li:hover span{
+#header .main-menu>ul>li:hover a>span{
 	color: #61BE5A;
 }
 #header .main-menu ul li .dropdown-menu{
@@ -401,6 +401,68 @@ body::-webkit-scrollbar {
 	position: absolute;
 	top: -5px;
 	right: -15px;
+}
+#header .main-menu ul li .dropdown-notify{
+	width: 400px;
+}
+#notify-tab{
+	border-radius: 8px;
+	background-color: #FAFAFA;
+	padding: 4px;
+}
+#notify-tab li a{
+	font-size: 16px;
+	font-weight: 600;
+	color: #929495;
+	width: 180px;
+	text-align: center;
+}
+#notify-tab li.active a{
+	background: #61BE5A;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	border-radius: 8px;
+	height: 40px;
+}
+#notify-tab-content ul{
+	margin-top: 16px;
+	margin-bottom: 0;
+}
+#notify-tab-content ul li{
+	display: flex;
+	margin-bottom: 16px;
+}
+#notify-tab-content ul li:last-child{
+	margin-bottom: 0;
+}
+#notify-tab-content .on-left{
+	flex: none;
+	margin-right: 8px;
+	max-width: 64px;
+}
+#notify-tab-content .on-left img{
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+}
+#notify-tab-content .on-right h4{
+	line-height: 0;
+	margin-bottom: 0;
+}
+#notify-tab-content .on-right h4 a{
+	color: #96A8B4;
+	font-size: 12px;
+	line-height: 18px;
+}
+#notify-tab-content .on-right .time-on{
+	color: #96A8B4 !important;
+	font-size: 12px;
+	letter-spacing: 0;
+	line-height: 18px;
+}
+#notify-tab-content .on-right .time-on:hover{
+	color: #96A8B4 !important;
 }
 /*========================= Main Content ==================*/
 /*Box Search*/

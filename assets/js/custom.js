@@ -5,6 +5,9 @@ $(document).ready(function(){
     $('.menu-profile>a').click(function(){
         $('.dropdown-xt').toggle('slow');
     });
+    $('.menu-notify>a').click(function(){
+        $('.dropdown-notify').toggle('slow');
+    });
     //Range Price SLider
     $(function() {
         $( "#slider-range" ).slider({
@@ -120,6 +123,15 @@ $(document).ready(function(){
         $(this).parent('li').addClass('show active');        
         $('#profile-tab-content .tab-pane').removeClass('active');
         $(targetId).addClass('show active');        
-    });            
+    });   
+    //Notify Tab
+    $('#notify-tab a').click(function (e) {
+        e.preventDefault();        
+        var targetId = $(this).attr('data-href');        
+        $('#notify-tab .active').removeClass('show active');
+        $(this).parent('li').addClass('show active');        
+        $('#notify-tab-content .tab-pane').removeClass('active');
+        $(targetId).addClass('show active');        
+    });           
 });
 
