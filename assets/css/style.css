@@ -455,6 +455,9 @@ body::-webkit-scrollbar {
 	font-size: 12px;
 	line-height: 18px;
 }
+#notify-tab-content li.no-read .on-right h4 a{
+	color: #000;
+}
 #notify-tab-content .on-right .time-on{
 	color: #96A8B4 !important;
 	font-size: 12px;
@@ -463,6 +466,16 @@ body::-webkit-scrollbar {
 }
 #notify-tab-content .on-right .time-on:hover{
 	color: #96A8B4 !important;
+}
+.xt-readmore{
+	margin: 16px auto 0 auto;
+	padding-top: 16px;
+	border-top: 1px solid #dddfe2;
+}
+.xt-readmore .xt-button{
+	height: 30px;
+	max-width: 150px;
+	margin: 0 auto;
 }
 /*========================= Main Content ==================*/
 /*Box Search*/
