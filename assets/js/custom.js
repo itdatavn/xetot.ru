@@ -133,5 +133,18 @@ $(document).ready(function(){
         $('#notify-tab-content .tab-pane').removeClass('active');
         $(targetId).addClass('show active');        
     });           
+    //Popup Report//
+    $('.report-btn').click(function () {       
+        $.fancybox.open({
+            src  : '#popup-report',
+            type : 'inline',
+            touch: false,
+            opts : {
+                afterShow : function( instance, current ) {
+                    // console.info( 'done!' );
+                }
+            }
+        });
+    });
 });
 
