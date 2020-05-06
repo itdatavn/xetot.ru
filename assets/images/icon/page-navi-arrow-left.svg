@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>F8DD2A32-71AE-41F1-9267-6BC76C993651</title>
+    <g id="Main-Feature" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="12.1-Blog" transform="translate(-1081.000000, -1125.000000)" fill="#0B0F17">
+            <g id="Pagination-/-End" transform="translate(135.000000, 1100.000000)">
+                <g id="End" transform="translate(0.000000, 17.000000)">
+                    <g id="Pagination-/-Number" transform="translate(938.000000, 0.000000)">
+                        <g id="Pagination">
+                            <g id="Arrow">
+                                <g id="Icon/_Navigation/Arrow-Left" transform="translate(8.000000, 8.000000)">
+                                    <g id="Arrow-Left">
+                                        <path d="M5.74679128,15.9673985 C5.39716185,15.8758831 5.12411689,15.6028381 5.03260145,15.2532087 C4.94108601,14.9035793 5.04534202,14.5317759 5.30529861,14.2807014 L11.3052986,8.28070139 C11.6839111,7.90202902 12.2936217,7.8888032 12.6882986,8.25070139 L18.6882986,13.7507014 C19.0953325,14.1240459 19.1226431,14.7566675 18.7492986,15.1637014 C18.3759541,15.5707353 17.7433325,15.5980459 17.3362986,15.2247014 L12.0422986,10.3717014 L6.71929861,15.6947014 C6.46822414,15.954658 6.09642072,16.058914 5.74679128,15.9673985 Z" id="Main" transform="translate(12.006181, 11.993883) scale(-1, 1) rotate(90.000000) translate(-12.006181, -11.993883) "></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+.transaction-left{
+	background: #fff;
+	padding: 16px;
+	border-radius: 8px;
+}
+.transaction-left table tbody tr th{
+	color: #929495;
+	font-weight: 400;
+}
+.transaction-left thead tr th{
+	color: #929495;
+	font-weight: 600;
+}

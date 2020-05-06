@@ -53,6 +53,7 @@ a:focus, button:focus{
 	padding: 0;
 	margin-right: 8px;
 	border: 1px solid #fff;
+	border-radius: 8px;
 }
 .page-item.active .page-link, .page-link:hover{
 	background: #fff;
@@ -253,6 +254,12 @@ body::-webkit-scrollbar {
 	display: none;
 }
 #mobile-menu.mm-menu_opened{
+	display: block;
+}
+.page-prev, .page-next{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
 	display: block;
 }
 /*========================= Header ==================*/
