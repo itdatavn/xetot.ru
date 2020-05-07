@@ -334,6 +334,17 @@ body::-webkit-scrollbar {
 .dropdown-xt ul{
 	border-bottom: 1px solid #FAFAFA;
 }
+.dropdown-xt ul.menu-not-login{
+	border: none;
+}
+.dropdown-xt ul.menu-not-login li{
+	display: flex;
+	align-items: center;
+}
+.dropdown-xt ul.menu-not-login li:hover{
+	background-color: #FAFAFA;
+	border-radius: 8px;
+}
 #header .gr-button .xt-button{
 	height: 48px;
 	width: 170px;

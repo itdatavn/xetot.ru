@@ -183,59 +183,69 @@
 								<img src="assets/images/icon/ic-more.svg">
 								<span>Thêm</span>
 							</a>
-							<div class="dropdown-menu dropdown-xt">								
-								<div class="info-profile d-flex align-items-center w-100 float-left">
-									<img src="assets/images/avatar-customer.png" class="profile-avatar">
-									<div class="profile-xt text-left">
-										<h3>Hoàng Trọng B</h3>
-										<p class="mb-0">Cá nhân <a href="#" class="color-green text-uppercase ml-2">Xem Hồ Sơ <img src="assets/images/icon/ic-arrow-right-green.svg"></a></p>
-									</div>										
-								</div>
-								<div class="profile-cost w-100 float-left">
-									<p>Tài khoản xe tốt</p>
-									<span><img src="assets/images/icon/ic-your-currency.svg" class="mr-2"> 0 ₫</span>
-								</div>
-								<ul class="list-unstyled w-100 float-left">
-									<li>
-										<a href="#" class="d-flex align-items-center">
-											<img src="assets/images/icon/ic-wish.svg" class="mr-3">Tin đăng yêu thích
-										</a>
-									</li>
-									<li>
-										<a href="#" class="d-flex align-items-center">
-											<img src="assets/images/icon/ic-save.svg" class="mr-3">Tin đăng đã lưu
-										</a>
-									</li>
-									<li>
-										<a href="#" class="d-flex align-items-center">
-											<img src="assets/images/icon/ic-your-friends.svg" class="mr-3">Danh sách bạn bè
-										</a>
-									</li>
+							<div class="dropdown-menu dropdown-xt">
+								<!--if-not-login-->
+								<ul class="list-unstyled menu-not-login">
+									<li><img src="assets/images/icon/ic-sign-in.svg" class="mr-2"> <a href="#">Đăng nhập</a></li>
+									<li><img src="assets/images/icon/ic-sign-up.svg" class="mr-2"> <a href="#">Đăng ký</a></li>
 								</ul>
-								<ul class="list-unstyled w-100 float-left">
-									<li>
-										<a href="#" class="d-flex align-items-center">
-											<img src="assets/images/icon/ic-transaction-history.svg" class="mr-3">Lịch sử giao dịch
-										</a>
-									</li>
-									<li>
-										<a href="#" class="d-flex align-items-center">
-											<img src="assets/images/icon/ic-create-store.svg" class="mr-3">Tạo cửa hàng
-										</a>
-									</li>
-								</ul>
-								<ul class="list-unstyled w-100 float-left">
-									<li>
-										<a href="#" class="d-flex align-items-center">
-											<img src="assets/images/icon/ic-help.svg" class="mr-3">Trợ giúp
-										</a>
-									</li>
-									<li>
-										<a href="#" class="d-flex align-items-center">
-											<img src="assets/images/icon/ic-logout.svg" class="mr-3">Đăng xuất
-										</a>
-									</li>
-								</ul>						
+								<!--if-not-login-->
+								<!--if-login-->	
+								<div class="d-none"><!--khi lap code thi xoa div nay di -->							
+									<div class="info-profile d-flex align-items-center w-100 float-left">
+										<img src="assets/images/avatar-customer.png" class="profile-avatar">
+										<div class="profile-xt text-left">
+											<h3>Hoàng Trọng B</h3>
+											<p class="mb-0">Cá nhân <a href="#" class="color-green text-uppercase ml-2">Xem Hồ Sơ <img src="assets/images/icon/ic-arrow-right-green.svg"></a></p>
+										</div>										
+									</div>
+									<div class="profile-cost w-100 float-left">
+										<p>Tài khoản xe tốt</p>
+										<span><img src="assets/images/icon/ic-your-currency.svg" class="mr-2"> 0 ₫</span>
+									</div>
+									<ul class="list-unstyled w-100 float-left">
+										<li>
+											<a href="#" class="d-flex align-items-center">
+												<img src="assets/images/icon/ic-wish.svg" class="mr-3">Tin đăng yêu thích
+											</a>
+										</li>
+										<li>
+											<a href="#" class="d-flex align-items-center">
+												<img src="assets/images/icon/ic-save.svg" class="mr-3">Tin đăng đã lưu
+											</a>
+										</li>
+										<li>
+											<a href="#" class="d-flex align-items-center">
+												<img src="assets/images/icon/ic-your-friends.svg" class="mr-3">Danh sách bạn bè
+											</a>
+										</li>
+									</ul>
+									<ul class="list-unstyled w-100 float-left">
+										<li>
+											<a href="#" class="d-flex align-items-center">
+												<img src="assets/images/icon/ic-transaction-history.svg" class="mr-3">Lịch sử giao dịch
+											</a>
+										</li>
+										<li>
+											<a href="#" class="d-flex align-items-center">
+												<img src="assets/images/icon/ic-create-store.svg" class="mr-3">Tạo cửa hàng
+											</a>
+										</li>
+									</ul>
+									<ul class="list-unstyled w-100 float-left">
+										<li>
+											<a href="#" class="d-flex align-items-center">
+												<img src="assets/images/icon/ic-help.svg" class="mr-3">Trợ giúp
+											</a>
+										</li>
+										<li>
+											<a href="#" class="d-flex align-items-center">
+												<img src="assets/images/icon/ic-logout.svg" class="mr-3">Đăng xuất
+											</a>
+										</li>
+									</ul>
+								</div><!--khi lap code thi xoa div nay di -->
+								<!--if-login-->					
 							</div>
 						</li>
 					</ul>
