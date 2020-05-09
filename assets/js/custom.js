@@ -148,3 +148,35 @@ $(document).ready(function(){
     });
 });
 
+      
+(function($){
+    $(document).ready(function(){
+        $(window).load(function(){
+            if($('.term-description').length > 0){
+                var wrap = $('.term-description');
+                var current_height = wrap.height();
+                var your_height = 200;
+                if(current_height > your_height){
+                    wrap.css('height', your_height+'px');
+                    wrap.append(function(){
+                        return '<div class="xt_readmore_taxonomy xt_readmore_taxonomy_show"><a title="Xem thêm" href="javascript:void(0);">Xem thêm</a></div>';
+                    });
+                    wrap.append(function(){
+                        return '<div class="xt_readmore_taxonomy xt_readmore_taxonomy_less" style="display: none"><a title="Thu gọn" href="javascript:void(0);">Thu gọn</a></div>';
+                    });
+                    $('body').on('click','.xt_readmore_taxonomy_show', function(){
+                        wrap.removeAttr('style');
+                        $('body .xt_readmore_taxonomy_show').hide();
+                        $('body .xt_readmore_taxonomy_less').show();
+                    });
+                    $('body').on('click','.xt_readmore_taxonomy_less', function(){
+                        wrap.css('height', your_height+'px');
+                        $('body .xt_readmore_taxonomy_show').show();
+                        $('body .xt_readmore_taxonomy_less').hide();
+                    });
+                }
+            }
+        });
+    })
+})(jQuery)
+       
