@@ -534,6 +534,7 @@ body::-webkit-scrollbar {
 .box-search .inline-group select{
 	margin-right: 16px;
 	max-width: 189px;
+	font-size: 14px;
 	flex: none;
 	height: 48px;
 	background: #FFFFFF;
@@ -687,13 +688,14 @@ body::-webkit-scrollbar {
 }
 .xt-car-info .price{
 	font-weight: bold;
-	font-size: 20px;
-	line-height: 32px;
+	font-size: 16px;
+	line-height: 28px;
 	color: #61BE5A;
 }
 .xt-car-info .xt-button{
-	width: 143px;
-	height: 32px;
+	width: 130px;
+	height: 30px;
+	font-size: 13px;
 }
 .xt-car-info .xt-button:hover{
 	color: #fff;
