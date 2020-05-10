@@ -9,6 +9,12 @@
 	.profile-detail-right{
 		max-width: 330px;
 	}
+	.xt-create-left{
+		max-width: 600px;
+	}
+	.box-create ul li{
+		max-width: 293px;
+	}
 }
 @media(min-width: 768px) and (max-width: 992px){
 	.w-md-auto{
@@ -25,6 +31,16 @@
 	/*yourpost*/
 	#category-tab-content .call-action{
 		float: right;
+	}
+	/*create-new*/
+	.box-create ul li{
+		max-width: 361px;
+	}
+	.xt-create-right{
+		max-width: 100%;
+	}
+	.xt-create-right ul{
+		justify-content: center !important;
 	}
 }
 @media(max-width: 767px){
@@ -248,6 +264,12 @@
 	.form-upload-snews .box{
 		height: auto;
 		padding: 16px;
+	}	
+	.box-create ul li{
+		max-width: 100%;
+	}
+	.xt-create-right{
+		max-width: 100%;
 	}
 	/*yourpost*/
 	#category-tab-content .archive-thumb{
@@ -259,5 +281,15 @@
 	}
 	#category-tab-content .call-action{
 		float: right;
+	}
+	@media(max-width: 375px){
+		.xt-create-right ul li{
+			width: 85px;
+		}
+	}
+	@media(max-width: 320px){
+		.xt-create-right{
+			padding: 10px;
+		}
 	}
 }
