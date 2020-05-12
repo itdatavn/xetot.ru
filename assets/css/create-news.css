@@ -365,3 +365,75 @@
 	font-weight: 600;
 	text-transform: uppercase;
 }
+/*last-full*/
+.full-create-news .full-create-ar{
+	padding: 32px;
+	border-radius: 8px;
+}
+.xt-all-create{
+	border-radius: 8px;
+	background-color: #FAFAFA;
+	padding: 8px 16px;
+}
+.xt-create-step-1 ul li{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.xt-create-step-1 ul li.active{
+	height: 96px;
+	width: 140px;
+	border: 1px solid #61BE5A;
+	border-radius: 8px;
+	background: #fff;
+}
+.xt-create-step-1 ul li.active:after{
+	background: url(../images/icon/category/ic-check.svg);
+	position: absolute;
+	content: '';
+	right: 8px;
+	top: 8px;
+	width: 24px;
+	height: 24px;
+}
+.xt-create-step-2 ul li{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.xt-create-step-2 ul li .item-step-2{
+	height: 96px;
+	width: 177px;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	padding: 0;
+	min-height: auto !important;
+	background: transparent;
+	margin-bottom: 0;
+}
+.xt-create-step-2 ul{
+	max-width: 370px;
+}
+.xt-create-step-2 ul li .item-step-2.active{
+	border: 1px solid #61BE5A;
+	background: #fff;
+}
+.xt-create-step-2 ul li h4{
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 0;
+}
+.xt-create-step-2 .create-step-2 ul li .item-step-2.active:after{
+	top: 8px;
+	right: 8px;
+}
+.xt-create-step-3 .citem-content img{
+	max-width: 48px;
+}
+.xt-create-step-3 ul{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
