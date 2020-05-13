@@ -290,6 +290,9 @@ body::-webkit-scrollbar {
 	align-items: center;
 	font-weight: 600;
 }
+#header .main-menu>ul>li a>img{
+	min-width: 24px;
+}
 #header .main-menu>ul>li:hover a>span{
 	color: #61BE5A;
 }
