@@ -21,6 +21,9 @@
 .disabled{
 	display: none;
 }
+.container{
+	max-width: 1200px;
+}
 img{
     -webkit-transition: -webkit-transform .3s;
     transition: transform .3s;
