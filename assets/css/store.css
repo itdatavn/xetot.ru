@@ -186,3 +186,59 @@
 	font-size: 12px;
 	color: #929495;
 }
+.group-button-drop{
+	height: 32px;
+	width: 32px;
+	border: 1px solid #61BE5A;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.dropdown-drop ul{
+	display: block;
+	border-radius: 8px;
+	width: 213px;
+	padding: 10px 0;
+	box-shadow: 0 6px 24px 0 rgba(11,15,23,0.12);
+}
+.dropdown-drop{
+	border: none;
+	left: -180px;
+	padding: 0;
+	top: 32px;
+}
+.dropdown-drop ul li{
+	height: 40px;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	width: 205px;
+	margin: 0 auto;
+	padding: 0 12px;
+}
+.dropdown-drop ul li:hover{
+	height: 40px;
+	width: 205px;
+	border-radius: 8px;
+	background-color: #FAFAFA;
+}
+.dropdown-drop ul li:hover a{
+	font-weight: 600;
+}
+.dropdown-drop ul li img{
+	margin-right: 16px;
+}
+.dropdown-drop ul li a{
+	display: block;
+	width: 100%;
+}
+.action-in-your-post .save-news{
+	height: 32px;
+	color: #fff;
+	width: 163px !important;
+	margin-right: 16px;
+	border-radius: 8px;
+	background-color: #61BE5A;
+}
