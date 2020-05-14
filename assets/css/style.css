@@ -554,7 +554,7 @@ body::-webkit-scrollbar {
 	background: #FFFFFF;
 	border-radius: 8px;
 	color: #000000;
-	font-weight: 600;
+	font-weight: 500;
 }
 .box-search .inline-group input{
 	max-width: 372px;
@@ -648,7 +648,7 @@ body::-webkit-scrollbar {
 	height: 48px;
 	border-radius: 8px;
 	max-width: 189px;
-	font-weight: 600;
+	font-weight: 500;
 	color: #000000;
 }
 .item-car .thumb-car{
@@ -903,13 +903,13 @@ body::-webkit-scrollbar {
 	margin-bottom: 0;
 }
 .absolute-footer{
-	background: #0B0F17;
+	background: #FAFAFA;
 	height: 56px;
 	display: flex;
 	align-items: center;
 }
 .ab-left p{
-	color: #fff;
+	color: #000000;
 	margin-bottom: 0;
 }
 .ab-social-right ul li:not(:first-child){
