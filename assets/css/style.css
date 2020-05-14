@@ -183,21 +183,39 @@ a:focus, button:focus{
 	border-bottom: 1px solid #FAFAFA;
 }
 .if-vip{
-	height: 26px;
-	width: 38px;
-	border-radius: 4px;
-	background-color: #F9DF13;
-	font-size: 12px;
+	display: block;
+    background-color: #F9DF13;
+    color: #000000;
+    font-size: 12px;
 	font-weight: 600;
-	position: absolute;
-	top: 4px;
-	left: 4px;
-	text-align: center;
-	line-height: 26px;
+    text-align: center;
+    position: absolute;
+    border-radius: 4px;
+    top: 15px;
+    left: -5px;
+    padding: 2px 8px;
+    line-height: 24px;
+    height: 26px;
+	width: 46px;
+}
+.if-vip:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    border-width: 0 8px 10px 0;
+    border-color: transparent #A39421 transparent transparent;
+    border-style: solid;
 }
 .if-hot{
 	background-color: #FF5656;
 	color: #fff;
+}
+.if-hot:after{
+	border-color: transparent #A33E3E transparent transparent;
 }
 .flex-none{
 	flex: none;
