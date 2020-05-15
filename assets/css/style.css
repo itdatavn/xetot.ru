@@ -435,6 +435,11 @@ body::-webkit-scrollbar {
 	color: #FFFFFF;
 	text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
 }
+.main-slider .owl-dots .owl-dot.active span{
+	background-color: #61BE5A;
+	height: 8px;
+	width: 32px;
+}
 .same-button .owl-dots{
 	position: absolute;
 	left: 0;
