@@ -79,6 +79,9 @@ a:focus, button:focus{
 .color-red{
 	color: #FF5656;
 }
+.color-red:hover{
+	color: #FF5656;
+}
 .form-control:focus{
 	outline: none;
 	box-shadow: none;
@@ -192,7 +195,7 @@ a:focus, button:focus{
     position: absolute;
     border-radius: 4px;
     top: 15px;
-    left: -5px;
+    left: -8px;
     padding: 2px 8px;
     line-height: 24px;
     height: 26px;
@@ -296,7 +299,7 @@ body::-webkit-scrollbar {
 }
 #header .main-menu>ul>li{
 	text-align: center;
-	margin-right: 24.5px;
+	margin-right: 30px;
 	position: relative;
 	padding: 15px 0;
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>60F771AD-45DE-4D56-A5FE-471CBBCFF881</title>
+    <g id="Main-Feature" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4.3-All-Noti" transform="translate(-167.000000, -463.000000)">
+            <g id="Dropdown" transform="translate(135.000000, 136.000000)">
+                <g id="Dropdown-/-iL" transform="translate(32.000000, 315.000000)">
+                    <g id="Icon/Base" transform="translate(0.000000, 12.000000)">
+                        <g id="Group">
+                            <circle id="Base" fill="#FFFFFF" opacity="0" cx="12" cy="12" r="12"></circle>
+                            <path d="M16,5 C17.1045695,5 18,5.8954305 18,7 L18,18.727 C18,19.1236526 17.7656345,19.4828345 17.4025373,19.642502 C17.03944,19.8021694 16.6162939,19.7321372 16.324,19.464 L12.676,16.119 C12.2935984,15.7682022 11.7064016,15.7682022 11.324,16.119 L7.676,19.464 C7.38370606,19.7321372 6.96055995,19.8021694 6.59746273,19.642502 C6.23436551,19.4828345 6,19.1236526 6,18.727 L6,7 C6,5.8954305 6.8954305,5 8,5 L16,5 Z M16,7 L8,7 L8,16.453 L9.972,14.6451968 C11.0714047,13.636653 12.7350626,13.5946303 13.8811969,14.5188615 L14.0276688,14.644893 L16,16.453 L16,7 Z" id="Main" fill="#FF7A1F"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
