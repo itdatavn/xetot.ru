@@ -279,7 +279,7 @@
 	margin-top: 16px;
 }
 .xt-create-left{
-	max-width: 770px;
+	max-width: 630px;
 	float: left;
 	width: 100%;
 }
@@ -293,12 +293,16 @@
 	padding: 16px;
 	float: left;
 	width: 100%;
-	max-width: 377px;
-	min-height: 123px;
+	max-width: 300px;
+	min-height: 125px;
 	margin-bottom: 16px;
+	border: 1px solid #F4F4F5;
 }
 .box-create ul li:nth-child(2n){
 	float: right;
+}
+.box-create ul li.active{
+	border-color: #61BE5A;
 }
 .box-create ul li h4{
 	font-size: 14px;
@@ -358,6 +362,10 @@
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 8px;
+	border: 1px solid transparent;
+}
+.xt-create-right ul li.active{
+	border: 1px solid #333;
 }
 .xt-create-right .xt-button{
 	width: 100%;

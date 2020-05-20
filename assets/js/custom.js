@@ -149,6 +149,18 @@ $(document).ready(function(){
             }
         });
     });
+    $('.sell-fast').click(function () {       
+        $.fancybox.open({
+            src  : '.popup-sell-fast',
+            type : 'inline',
+            touch: false,
+            opts : {
+                afterShow : function( instance, current ) {
+                    // console.info( 'done!' );
+                }
+            }
+        });
+    });
 });
 
       

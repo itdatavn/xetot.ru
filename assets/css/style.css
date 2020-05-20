@@ -944,3 +944,6 @@ body::-webkit-scrollbar {
 .ab-social-right ul li:not(:first-child){
 	margin-left: 32px;
 }
+.popup-sell-fast{
+	display: none;
+}
