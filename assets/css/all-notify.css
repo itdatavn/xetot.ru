@@ -2,20 +2,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 32px;
-}
-.list-notify-old li:last-child {
-  margin-bottom: 0;
-  border-bottom: 1px solid #FAFAFA;
-  padding-bottom: 30px;
-}
+  margin-bottom: 32px; }
+  .list-notify-old li:last-child {
+    margin-bottom: 0;
+    border-bottom: 1px solid #FAFAFA;
+    padding-bottom: 30px; }
 
 .box-td-notify ul li {
-  margin-bottom: 12px;
-}
+  margin-bottom: 12px; }
 .box-td-notify .notify-menu-1 {
   border-bottom: 1px solid #FAFAFA;
   border-top: 1px solid #FAFAFA;
   padding-top: 15px;
-  margin-top: 15px;
-}
+  margin-top: 15px; }
+
+/*# sourceMappingURL=all-notify.css.map */
