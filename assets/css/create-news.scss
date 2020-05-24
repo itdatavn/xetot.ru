@@ -200,10 +200,16 @@
 			border: 1px solid #fff;
 			cursor: pointer;
 			align-items: center;
-			.active, &:hover{
+			&:hover{
 				border: 1px solid #61BE5A;
 			}
-			.active a, &:hover a{
+			&:hover a{
+				color: #61BE5A;
+			}
+		}
+		li.active{
+			border: 1px solid #61BE5A;
+			a{
 				color: #61BE5A;
 			}
 		}
