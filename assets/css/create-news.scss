@@ -214,6 +214,15 @@
 			}
 		}
 	}
+	.carwith-logo li a{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		img{
+			max-height: 26.67px;
+		}
+	}
 }
 .form-select-brand{
 	max-width: 770px;
