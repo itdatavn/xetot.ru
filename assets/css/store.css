@@ -148,6 +148,9 @@
 .your-post-user .box-list-category ul li.active p{
 	color: #61BE5A;
 }
+#category-tab-content ul.rs-your-post>li:not(:last-child){
+	margin-bottom: 32px;
+}
 #category-tab-content .archive-text h3{
 	line-height: 0;
 	max-width: 380px;
