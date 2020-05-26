@@ -8,8 +8,9 @@ $(document).ready(function(){
     $('.menu-notify>a').click(function(){
         $('.dropdown-notify').toggle('slow');
     });
-    $('.group-button-drop>a').click(function(){
-        $('.dropdown-drop').toggle('slow');
+    $('.group-button-drop').click(function(){
+        // $('.dropdown-drop').toggle('slow');
+        $(this).children('.dropdown-drop').toggle('slow');
     });
     //Range Price SLider
     $(function() {
