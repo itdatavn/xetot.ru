@@ -342,6 +342,27 @@
 				background: linear-gradient(180deg, #9B66FF 0%, #6236FF 100%);
 			}
 		}
+
+		li.bg-silver{
+			&:before{
+				background: linear-gradient(180deg, #D2D2D6 0%, #BEBEC4 100%);
+			}
+		}
+		li.bg-brown{
+			&:before{
+				background: linear-gradient(180deg, #A3866C 0%, #764C24 100%);
+			}
+		}
+		li.bg-pink{
+			&:before{
+				background: linear-gradient(180deg, #F59EC6 0%, #F16EAA 100%);
+			}
+		}
+		li.bg-grey{
+			&:before{
+				background: linear-gradient(180deg, #989898 0%, #636363 100%);
+			}
+		}
 		li.bg-other{
 			&:before{
 				border: 1px solid #000000;
