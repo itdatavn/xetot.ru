@@ -1,0 +1,30 @@
+.keyword-total{
+	background: #fff;
+	border-radius: 8px;
+	.list-key-word{
+		padding: 25px;
+		.item-key-word{
+			margin-bottom: 8px;
+			a{
+				position: relative;
+				padding-left: 13px;
+				display: flex;
+				align-items: center;
+				&:before{
+					width: 4px;
+					height: 4px;
+					border-radius: 50%;
+					background: #6C6E72;
+					content: '';
+					left: 0;
+					position: absolute;
+				}
+			}
+		}
+	}
+	.navigator-right{
+		border-top: 1px solid #EEEEEE;
+		padding: 22px 0;
+		margin-top: 15px;
+	}
+}

@@ -265,6 +265,7 @@
 		border-radius: 8px;
 		margin-bottom: 32px;
 		color: #929495;
+		padding: 16px;
 		font-size: 14px;
 	}
 	textarea{
@@ -616,4 +617,40 @@
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
+}
+.sugguest-description{
+	label{
+		color: #929495;		
+		font-size: 12px;
+		font-weight: 600;
+		margin-bottom: 16px;
+	}
+	ul{
+		display: flex;
+		li{
+			border: 1px solid #929495;
+			border-radius: 4px;
+			height: 32px;
+			padding: 0 16px;
+			display: flex;
+			align-items: center;
+			margin-right: 8px;
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+	}
+}
+.count-text{
+	color: #929495;
+	font-weight: 600;
+}
+.has-currency{
+	position: relative;
+}
+.has-currency:after{
+	content: 'VNĐ';
+	position: absolute;
+	right: 16px;
+    top: 13px;
 }
