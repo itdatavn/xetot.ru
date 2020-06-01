@@ -654,3 +654,233 @@
 	right: 16px;
     top: 13px;
 }
+.full-create-news{
+	.xt-create-step-3 ul{
+		justify-content: space-between;
+	}
+	.xt-last-step-4{
+		.bg-grey-step-4{
+			border-radius: 8px;
+			background-color: #FAFAFA;
+			padding: 16px 0;
+			.col-lux{
+				border-right: 1px solid #DADBDB;
+				&:last-child{
+					border: none;
+				}
+			}		
+			ul{
+				padding: 16px;
+				li{
+					height: 40px;
+					display: flex;
+					align-items: center;
+					&:hover{
+						background: #fff;
+						border-radius: 8px;
+						a{
+							font-weight: 600;
+						}
+					}
+					a{
+						display: flex;
+						justify-content: space-between;
+						width: 100%;
+						padding: 0 8px;
+					}
+				}
+				li.none-info{
+					color: #929495;					
+					font-size: 14px;
+					font-weight: 600;
+					padding: 0 8px;
+				}
+			}		
+		}
+	}
+	.xt-last-step-5{
+		ul{
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			li{
+				width: 100%;
+				max-width: 358px;
+				margin-bottom: 16px;
+				position: relative;
+				input, select, textarea{
+					height: 48px;
+					border: 1px solid #DADBDB;					
+					border-radius: 8px;
+					color: #929495;
+					position: relative;
+					padding-left: 40px;
+					&::placeholder{
+						color: #929495;
+					}
+				}
+				textarea{
+					height: 120px;
+				}
+				&:last-child{
+					max-width: 732px;
+					textarea{
+						padding: 16px;
+					}
+				}				
+			}
+			li.input-img{
+				&:before{
+					background: url('../images/creat-news/ic-hopso.svg') no-repeat;
+					position: absolute;
+					left: 8px;
+					top: 10px;
+					content: '';
+					width: 25px;
+					height: 24px;
+					z-index: 999;
+				}
+			}
+			li.input-nl{
+				&:before{
+					background: url('../images/creat-news/ic-nhienlieu.svg') no-repeat;
+				}
+			}
+			li.input-sc{
+				&:before{
+					background: url('../images/creat-news/ic-socho.svg') no-repeat;
+				}
+			}
+			li.input-ms{
+				select{
+					-webkit-appearance: none;
+				    -moz-appearance: none;
+				    text-indent: 1px;
+				    text-overflow: '';
+				}
+				&:before{
+					background: url('../images/creat-news/ic-mausac.svg') no-repeat;
+				}
+				&:after{
+					background: url('../images/creat-news/ic-select-color.svg') no-repeat;
+					position: absolute;
+					right: 8px;
+					top: 10px;
+					content: '';
+					width: 25px;
+					height: 24px;
+					z-index: 999;
+				}
+			}
+			li.input-year{
+				&:before{
+					background: url('../images/creat-news/ic-year.svg') no-repeat;
+				}
+			}
+			li.input-tt{
+				&:before{
+					background: url('../images/creat-news/ic-tinhtrang.svg') no-repeat;
+				}
+			}
+			li.input-km{
+				&:before{
+					background: url('../images/creat-news/ic-km.svg') no-repeat;
+				}
+			}
+		}
+	}
+	.xt-last-step-6{
+		ul.cpanel-basic{
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			>li{
+				position: relative;
+				max-width: 545px;
+				width: 100%;
+				margin-bottom: 16px;
+				input, select, textarea{
+					height: 48px;
+					border: 1px solid #DADBDB;					
+					border-radius: 8px;
+					color: #929495;
+					position: relative;
+					padding-left: 40px;
+					&::placeholder{
+						color: #929495;
+					}
+				}
+				p{
+					color: #929495;
+					margin-top: 8px;
+				}
+				.box-tags-xl{
+					border: 1px solid #DADBDB;
+					border-radius: 8px;
+					min-height: 184px;
+					padding: 16px;
+					a{
+						height: 32px;					
+						border-radius: 4px;
+						background-color: #929495;
+						color: #fff;
+						display: inline-flex;
+						align-items: center;
+						justify-content: center;
+						padding: 0 16px;
+						margin: 0 4px 8px 0;
+					}
+				}			
+			}
+			.input-cb{
+				&:before{
+					background: url('../images/creat-news/ic-title.svg') no-repeat;
+					position: absolute;
+					left: 8px;
+					top: 10px;
+					content: '';
+					width: 25px;
+					height: 24px;
+					z-index: 999;
+				}	
+			}
+			.input-price{
+				background: url('../images/creat-news/ic-price.svg') no-repeat;
+			}
+		}
+		.preview-gallery{
+			ul{
+				li{
+					max-width: 124px;
+					&:nth-child(4n){
+						margin-right: 0;
+					}
+					&:nth-child(5n){
+						margin-right: 16px;
+					}
+					img{
+						max-width: 124px;
+					}
+				}
+			}			
+		}
+		.form-upload-snews .box{
+			margin-top: 0;
+		}
+	}
+	.bottom-full{
+		border-top: 1px solid #DADBDB;
+		margin-top: 32px;
+		padding: 16px 0;
+		.container{
+			display: flex;
+			justify-content: space-between;		
+			align-items: center;	
+		}
+		.xt-button{
+			height: 48px;
+			min-width: 370px;
+			text-transform: uppercase;			
+		}
+	}
+}
