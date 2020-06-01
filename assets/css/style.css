@@ -707,10 +707,13 @@ body::-webkit-scrollbar {
 	top: 8px;
 	right: 8px;
 }
+.item-car .car-content{
+	position: relative;
+	width: 100%;
+}
 .item-car .car-content h3{
 	line-height: 0;
 	margin-bottom: 5px;
-	min-height: 44px;
 }
 .item-car .car-content h3 a{
 	font-weight: 600;
@@ -731,7 +734,8 @@ body::-webkit-scrollbar {
 }
 .item-car .xt-car-info{
 	font-weight: 600;
-	margin-top: 4px;
+	position: absolute;
+	bottom: 0;
 }
 .xt-car-info .price{
 	font-weight: bold;
