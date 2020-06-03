@@ -27,6 +27,62 @@ $(document).ready(function(){
         });
         $( "#amount" ).val($( "#slider-range" ).slider( "values", 0 ).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + " đến " + $( "#slider-range" ).slider( "values", 1 ).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"));
     });
+    $(function() {
+        $( "#slider-range1" ).slider({
+          animate: true,
+                range: true,
+                min: 0,
+                max: 1000000000,
+                step: 10000,
+                values: [ 0, 500000000 ],
+          slide: function( event, ui ) {
+            $( "#amount1" ).val(ui.values[ 0 ].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + " đến " + ui.values[ 1 ].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") );
+          }
+        });
+        $( "#amount1" ).val($( "#slider-range1" ).slider( "values", 0 ).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + " đến " + $( "#slider-range1" ).slider( "values", 1 ).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"));
+    });
+    $(function() {
+        $( "#slider-range2" ).slider({
+          animate: true,
+                range: true,
+                min: 0,
+                max: 50,
+                step: 1,
+                values: [ 0, 25 ],
+          slide: function( event, ui ) {
+            $( "#amount2" ).val(ui.values[ 0 ].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + " đến " + ui.values[ 1 ].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") );
+          }
+        });
+        $( "#amount2" ).val($( "#slider-range2" ).slider( "values", 0 ).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + " đến " + $( "#slider-range2" ).slider( "values", 1 ).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"));
+    });
+    $(function() {
+        $( "#slider-range3" ).slider({
+          animate: true,
+                range: true,
+                min: 1900,
+                max: 2020,
+                step: 1,
+                values: [ 1900, 1950 ],
+          slide: function( event, ui ) {
+            $( "#amount3" ).val(ui.values[ 0 ].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + " đến " + ui.values[ 1 ].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") );
+          }
+        });
+        $( "#amount3" ).val($( "#slider-range3" ).slider( "values", 0 ).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + " đến " + $( "#slider-range3" ).slider( "values", 1 ).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"));
+    });
+    $(function() {
+        $( "#slider-range4" ).slider({
+          animate: true,
+                range: true,
+                min: 0,
+                max: 500000,
+                step: 1,
+                values: [ 0, 250000 ],
+          slide: function( event, ui ) {
+            $( "#amount4" ).val(ui.values[ 0 ].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + " đến " + ui.values[ 1 ].toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") );
+          }
+        });
+        $( "#amount4" ).val($( "#slider-range4" ).slider( "values", 0 ).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,") + " đến " + $( "#slider-range4" ).slider( "values", 1 ).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"));
+    });
     //Popup Search Filter//
     $('#xt-loc').click(function () {       
         $.fancybox.open({

@@ -303,43 +303,216 @@
 				</div>
 
 				<div id="popup-filter" class="search-popup">
-					<h4 class="xt-title-list">Lọc kết quả</h4>
-					<div class="form-group">
-						<label>Danh mục</label>
-						<select name="" id="" class="form-control">
-							<option value="">Ô tô</option>
-							<option value="">Ô tô</option>
-						</select>
+					<div class="xt-filter-1 d-none">
+						<h4 class="xt-title-list">Lọc kết quả</h4>
+						<div class="form-group">
+							<label>Danh mục</label>
+							<select name="" id="" class="form-control">
+								<option value="">Loại xe</option>
+								<option value="">Ô tô</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="amount">Giá từ:</label>
+							<input type="text" id="amount" readonly>
+							<div id="slider-range"></div>
+						</div>
+						<div class="form-group">
+							<label>Sắp xếp theo</label>
+							<div class="custom-control custom-radio pl-0">
+								<input type="radio" id="lastest-news" name="customRadioInline1" class="custom-control-input" checked="">
+								<label class="custom-control-label w-100" for="lastest-news"><img src="assets/images/filter/ic-time.svg" class="mr-2">Tin mới nhất</label>
+							</div>
+							<div class="custom-control custom-radio pl-0">
+								<input type="radio" id="price-min" name="customRadioInline1" class="custom-control-input">
+								<label class="custom-control-label w-100" for="price-min"><img src="assets/images/filter/ic-price.svg" class="mr-2">Giá thấp nhất</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label>Đăng bởi</label>
+							<div class="custom-control custom-checkbox pl-0">
+								<input type="checkbox" class="custom-control-input" id="type-shop">
+								<label class="custom-control-label w-100" for="type-shop"><img src="assets/images/filter/ic-store.svg" class="mr-2">Cửa hàng</label>
+							</div>
+							<div class="custom-control custom-checkbox pl-0">
+								<input type="checkbox" class="custom-control-input" id="type-professional">
+								<label class="custom-control-label w-100" for="type-professional"><img src="assets/images/filter/ic-user.svg" class="mr-2">Cá nhân</label>
+							</div>
+							<div class="custom-control custom-checkbox pl-0">
+								<input type="checkbox" class="custom-control-input" id="type-half">
+								<label class="custom-control-label w-100" for="type-half"><img src="assets/images/filter/ic-haft.svg" class="mr-2">Bán chuyên</label>
+							</div>
+						</div>
 					</div>
-					<div class="form-group">
-						<label for="amount">Giá từ:</label>
-						<input type="text" id="amount" readonly>
-						<div id="slider-range"></div>
+					<div class="xt-filter-2 d-none">
+						<div class="title-filter">
+							<a href="javascript:;">
+								<img src="assets/images/filter/ic-arrow-left.svg">
+							</a>
+							<h4 class="xt-title-list text-center">Loại xe</h4>
+						</div>						
+						<div class="form-group">
+							<div class="custom-control custom-radio pl-0">
+								<input type="radio" id="lastest-news1" name="customRadioInline1" class="custom-control-input" checked="">
+								<label class="custom-control-label w-100" for="lastest-news1"><img src="assets/images/search/ic-oto.svg" class="mr-2">Ô tô</label>
+							</div>
+							<div class="custom-control custom-radio pl-0">
+								<input type="radio" id="lastest-news2" name="customRadioInline2" class="custom-control-input">
+								<label class="custom-control-label w-100" for="lastest-news2"><img src="assets/images/search/ic-xemay.svg" class="mr-2">Xe máy</label>
+							</div>
+							<div class="custom-control custom-radio pl-0">
+								<input type="radio" id="lastest-news3" name="customRadioInline3" class="custom-control-input">
+								<label class="custom-control-label w-100" for="lastest-news3"><img src="assets/images/search/ic-xetai.svg" class="mr-2">Xe tải, xe ben</label>
+							</div>
+							<div class="custom-control custom-radio pl-0">
+								<input type="radio" id="lastest-news4" name="customRadioInline4" class="custom-control-input">
+								<label class="custom-control-label w-100" for="lastest-news4"><img src="assets/images/search/ic-xedien.svg" class="mr-2">Xe điện</label>
+							</div>
+							<div class="custom-control custom-radio pl-0">
+								<input type="radio" id="lastest-news5" name="customRadioInline5" class="custom-control-input">
+								<label class="custom-control-label w-100" for="lastest-news5"><img src="assets/images/search/ic-xedap.svg" class="mr-2">Xe đạp</label>
+							</div>
+							<div class="custom-control custom-radio pl-0">
+								<input type="radio" id="lastest-news6" name="customRadioInline6" class="custom-control-input">
+								<label class="custom-control-label w-100" for="lastest-news6"><img src="assets/images/search/ic-xekhac.svg" class="mr-2">Phương tiện khác</label>
+							</div>
+							<div class="custom-control custom-radio pl-0">
+								<input type="radio" id="lastest-news6" name="customRadioInline6" class="custom-control-input">
+								<label class="custom-control-label w-100" for="lastest-news6"><img src="assets/images/search/ic-phukien.svg" class="mr-2">Phụ tùng xe</label>
+							</div>
+						</div>
 					</div>
-					<div class="form-group">
-						<label>Sắp xếp theo</label>
-						<div class="custom-control custom-radio pl-0">
-							<input type="radio" id="lastest-news" name="customRadioInline1" class="custom-control-input" checked="">
-							<label class="custom-control-label w-100" for="lastest-news"><img src="assets/images/icon/ic-time.svg" class="mr-2">Tin mới nhất</label>
+					<div class="xt-filter-3 d-none">
+						<h4 class="xt-title-list">Lọc kết quả</h4>
+						<div class="form-group">
+							<label>Danh mục</label>
+							<select name="" id="" class="form-control">
+								<option value="">Ô tô</option>
+								<option value="">Ô tô</option>
+							</select>
 						</div>
-						<div class="custom-control custom-radio pl-0">
-							<input type="radio" id="price-min" name="customRadioInline1" class="custom-control-input">
-							<label class="custom-control-label w-100" for="price-min"><img src="assets/images/icon/ic-time.svg" class="mr-2">Giá thấp nhất</label>
+						<div class="form-group">
+							<label for="amount">Giá từ:</label>
+							<input type="text" id="amount1" class="mount-range" readonly>
+							<div id="slider-range1"></div>
+						</div>
+						<div class="form-group">
+							<ul class="list-unstyled odo-change">
+								<li>
+									<span class="name-ft">Hãng</span> <img src="assets/images/filter/ic-arrow-right-black.svg">
+								</li>
+								<li>
+									<span class="name-ft">Dòng xe</span> <img src="assets/images/filter/ic-arrow-right-black.svg">
+								</li>
+								<li>
+									<span class="name-ft">Phiên bản</span> <img src="assets/images/filter/ic-arrow-right-black.svg">
+								</li>
+								<li>
+									<span class="name-ft">Dáng xe</span> <img src="assets/images/filter/ic-arrow-right-black.svg">
+								</li>
+								<li>
+									<span class="name-ft">Hộp số</span> <img src="assets/images/filter/ic-arrow-right-black.svg">
+								</li>
+								<li>
+									<span class="name-ft">Nhiên liệu</span> <img src="assets/images/filter/ic-arrow-right-black.svg">
+								</li>
+							</ul>
+						</div>
+						<div class="form-group">
+							<label for="amount">Số chỗ từ:</label>
+							<input type="text" id="amount2" class="mount-range" readonly>
+							<div id="slider-range2"></div>
+						</div>
+						<div class="form-group">
+							<ul class="list-unstyled odo-change">
+								<li>
+									<span class="name-ft">Màu sắc</span> <img src="assets/images/filter/ic-arrow-right-black.svg">
+								</li>
+							</ul>
+						</div>
+						<div class="form-group">
+							<label for="amount">Năm sản xuất từ :</label>
+							<input type="text" id="amount3" class="mount-range" readonly>
+							<div id="slider-range3"></div>
+						</div>
+						<div class="form-group">
+							<ul class="list-unstyled odo-change">
+								<li>
+									<span class="name-ft">Tình Trạng</span> <img src="assets/images/filter/ic-arrow-right-black.svg">
+								</li>
+							</ul>
+						</div>
+						<div class="form-group">
+							<label for="amount">Số km đi từ :</label>
+							<input type="text" id="amount4" class="mount-range" readonly>
+							<div id="slider-range4"></div>
+						</div>
+						<div class="form-group">
+							<label>Sắp xếp theo</label>
+							<div class="custom-control custom-radio pl-0">
+								<input type="radio" id="lastest-news" name="customRadioInline1" class="custom-control-input" checked="">
+								<label class="custom-control-label w-100" for="lastest-news"><img src="assets/images/filter/ic-time.svg" class="mr-2">Tin mới nhất</label>
+							</div>
+							<div class="custom-control custom-radio pl-0">
+								<input type="radio" id="price-min" name="customRadioInline1" class="custom-control-input">
+								<label class="custom-control-label w-100" for="price-min"><img src="assets/images/filter/ic-price.svg" class="mr-2">Giá thấp nhất</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label>Đăng bởi</label>
+							<div class="custom-control custom-checkbox pl-0">
+								<input type="checkbox" class="custom-control-input" id="type-shop">
+								<label class="custom-control-label w-100" for="type-shop"><img src="assets/images/filter/ic-store.svg" class="mr-2">Cửa hàng</label>
+							</div>
+							<div class="custom-control custom-checkbox pl-0">
+								<input type="checkbox" class="custom-control-input" id="type-professional">
+								<label class="custom-control-label w-100" for="type-professional"><img src="assets/images/filter/ic-user.svg" class="mr-2">Cá nhân</label>
+							</div>
+							<div class="custom-control custom-checkbox pl-0">
+								<input type="checkbox" class="custom-control-input" id="type-half">
+								<label class="custom-control-label w-100" for="type-half"><img src="assets/images/filter/ic-haft.svg" class="mr-2">Bán chuyên</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label>Bạn muốn</label>
+							<div class="custom-control custom-checkbox pl-0">
+								<input type="checkbox" class="custom-control-input" id="type-shop2">
+								<label class="custom-control-label w-100" for="type-shop2"><img src="assets/images/filter/ic-buy.png" class="mr-2">Mua</label>
+							</div>
+							<div class="custom-control custom-checkbox pl-0">
+								<input type="checkbox" class="custom-control-input" id="type-professional2">
+								<label class="custom-control-label w-100" for="type-professional2"><img src="assets/images/filter/ic-sell.png" class="mr-2">Bán</label>
+							</div>
 						</div>
 					</div>
-					<div class="form-group">
-						<label>Đăng bởi</label>
-						<div class="custom-control custom-checkbox pl-0">
-							<input type="checkbox" class="custom-control-input" id="type-shop">
-							<label class="custom-control-label w-100" for="type-shop"><img src="assets/images/icon/ic-mall.svg" class="mr-2">Cửa hàng</label>
-						</div>
-						<div class="custom-control custom-checkbox pl-0">
-							<input type="checkbox" class="custom-control-input" id="type-professional">
-							<label class="custom-control-label w-100" for="type-professional"><img src="assets/images/icon/ic-user.svg" class="mr-2">Cá nhân</label>
-						</div>
-						<div class="custom-control custom-checkbox pl-0">
-							<input type="checkbox" class="custom-control-input" id="type-half">
-							<label class="custom-control-label w-100" for="type-half"><img src="assets/images/icon/ic-half.svg" class="mr-2">Bán chuyên</label>
+					<div class="xt-filter-4">
+						<div class="title-filter">
+							<a href="javascript:;">
+								<img src="assets/images/filter/ic-arrow-left.svg">
+							</a>
+							<h4 class="xt-title-list text-center">Hãng</h4>
+						</div>						
+						<div class="form-group">
+							<div class="custom-control custom-radio pl-0">
+								<input type="radio" id="lastest-news1" name="customRadioInline1" class="custom-control-input" checked="">
+								<label class="custom-control-label w-100" for="lastest-news1">Huyndai</label>
+							</div>
+							<div class="custom-control custom-radio pl-0">
+								<input type="radio" id="lastest-news1" name="customRadioInline1" class="custom-control-input">
+								<label class="custom-control-label w-100" for="lastest-news1">Huyndai</label>
+							</div>
+							<div class="custom-control custom-radio pl-0">
+								<input type="radio" id="lastest-news1" name="customRadioInline1" class="custom-control-input">
+								<label class="custom-control-label w-100" for="lastest-news1">Huyndai</label>
+							</div>
+							<div class="custom-control custom-radio pl-0">
+								<input type="radio" id="lastest-news1" name="customRadioInline1" class="custom-control-input">
+								<label class="custom-control-label w-100" for="lastest-news1">Huyndai</label>
+							</div>
+							<div class="custom-control custom-radio pl-0">
+								<input type="radio" id="lastest-news1" name="customRadioInline1" class="custom-control-input">
+								<label class="custom-control-label w-100" for="lastest-news1">Huyndai</label>
+							</div>
 						</div>
 					</div>
 					<div class="form-group mb-0">
