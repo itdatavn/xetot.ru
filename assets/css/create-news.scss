@@ -830,9 +830,12 @@
 						padding: 0 16px;
 						margin: 0 4px 8px 0;
 					}
-				}			
+				}
+				&:nth-child(1), &:nth-child(2), &:nth-child(3){
+					max-width: 360px;
+				}		
 			}
-			.input-cb{
+			li.input-cb{
 				&:before{
 					background: url('../images/creat-news/ic-title.svg') no-repeat;
 					position: absolute;
@@ -844,8 +847,16 @@
 					z-index: 999;
 				}	
 			}
-			.input-price{
-				background: url('../images/creat-news/ic-price.svg') no-repeat;
+			li.input-price{
+				&:before{
+					background: url('../images/creat-news/ic-price.svg') no-repeat;
+				}
+			}
+			li.input-dangxe{
+				&:before{
+					background: url('../images/creat-news/icon-dangxe.svg') no-repeat;
+					top: 15px;
+				}
 			}
 		}
 		.preview-gallery{
