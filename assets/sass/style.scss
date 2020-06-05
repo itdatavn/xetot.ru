@@ -987,3 +987,11 @@ body::-webkit-scrollbar {
 .popup-sell-fast{
 	display: none;
 }
+.gr-button-step{
+	max-width: 200px;
+	margin: 30px auto 0 auto;
+	.xt-button{
+		height: 48px;
+		text-transform: uppercase;
+	}
+}
