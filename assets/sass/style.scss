@@ -694,6 +694,9 @@ body::-webkit-scrollbar {
 	font-weight: bold;
 	border: none;
 }
+.search-popup input#amount, .search-popup input.mount-range:focus{
+	outline: none;
+}
 .search-popup .fancybox-close-small{
 	background: url('../images/icon/ic-close.svg');
 	width: 24px;
