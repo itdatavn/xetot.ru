@@ -801,6 +801,17 @@
 					background: url('../images/creat-news/ic-xuatxu.svg') no-repeat;
 				}
 			}
+			li.input-tt{				
+				&:before{
+					background: url('../images/creat-news/ic-tai-trong.svg') no-repeat;
+				}
+			}
+			li.input-dt{
+				margin-right: 374px;
+				&:before{
+					background: url('../images/creat-news/ic-dung-tich.svg') no-repeat;
+				}
+			}
 		}
 	}
 	.xt-last-step-6{

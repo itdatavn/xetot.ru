@@ -1,0 +1,26 @@
+.keyword-total {
+  background: #fff;
+  border-radius: 8px; }
+  .keyword-total .list-key-word {
+    padding: 25px; }
+    .keyword-total .list-key-word .item-key-word {
+      margin-bottom: 8px; }
+      .keyword-total .list-key-word .item-key-word a {
+        position: relative;
+        padding-left: 13px;
+        display: flex;
+        align-items: center; }
+        .keyword-total .list-key-word .item-key-word a:before {
+          width: 4px;
+          height: 4px;
+          border-radius: 50%;
+          background: #6C6E72;
+          content: '';
+          left: 0;
+          position: absolute; }
+  .keyword-total .navigator-right {
+    border-top: 1px solid #EEEEEE;
+    padding: 22px 0;
+    margin-top: 15px; }
+
+/*# sourceMappingURL=key-word.css.map */
