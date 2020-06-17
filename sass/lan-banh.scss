@@ -1,0 +1,144 @@
+#popup-cost{
+	padding: 0;
+	max-width: 570px;
+	width: 100%;
+	height: 831px;
+	border-radius: 8px;
+	.title-popup{
+		border-bottom: 1px solid #E0E0E0;
+		padding: 15px;
+		font-weight: 600;
+		font-size: 24px;
+		color: #0A0A0A;
+		margin-bottom: 0;
+		text-align: center;
+	}
+	label{
+		font-weight: 600;
+		span{
+			font-weight: 400;
+			color: #929495;
+		}
+	}
+	.bank-select{
+		padding: 20px 30px;
+		ul{
+			li{
+				border: 1px solid #DADBDB;			
+				border-radius: 8px;
+				width: 121px;
+				height: 85px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			li.active{
+				border: 2px solid #61BE5A;
+				background: url('../images/cost/ic-active.svg') no-repeat;
+				background-position: -1px -2px;
+			}
+		}
+	}
+	.car-price{
+		padding: 20px 30px 0 30px;
+		border-top: 1px solid #E0E0E0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.input-group{
+			max-width: 215px;
+			input{
+				border-radius: 8px 0 0 8px;
+				font-weight: 600;
+				&:focus{
+					border-color: #DADBDB;
+				}
+			}
+			.input-group-prepend{
+				span{
+					background: #FFFFFF;
+					box-sizing: border-box;
+					border-radius: 0px 8px 8px 0px;
+					border-left: 0;
+				}
+			}
+		}
+	}
+	.car-per-year{
+		padding: 20px 30px;
+		border-top: 1px solid #E0E0E0;
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-between;		
+		ul{
+			li{
+				background: #EDEDED;
+				width: 41px;
+				height: 41px;
+				border-radius: 50%;
+				font-weight: 600;
+				font-size: 18px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				&:not(:last-child){
+					margin-right: 8px;
+				}
+			}
+			li.active{
+				color: #fff;
+				background: #61BE5A;
+			}
+		}
+	}
+	.car-before-cost{
+		padding: 20px 30px 0;
+		border-top: 1px solid #E0E0E0;
+		ul{
+			li{
+				&:not(:last-child){
+					margin-bottom: 10px;
+				}
+				select{
+					max-width: 126px;
+					background: #FAFAFA;
+					border: 1px solid #DADBDB;
+					box-sizing: border-box;
+					border-radius: 8px;
+				}
+			}
+		}
+	}
+	.car-ls{
+		label{
+			text-align: center;
+		}
+		.input-group{
+			max-width: 126px;
+			input{
+				max-width: 88px;
+			}
+		}
+	}
+	.cost-pay{
+		padding: 0 30px;
+		padding: 20px 30px;
+		.group-tg{
+			height: 48px;
+			justify-content: space-between;
+			padding: 0 30px;
+		}
+	}
+	.bottom-popup{
+		padding: 20px 30px;
+		border-top: 1px solid #E0E0E0;
+		.xt-button{
+			background: #F2C94C;
+			border-radius: 8px;
+			width: 100%;
+			height: 48px;
+			font-weight: 600;
+			font-size: 14px;
+		}
+	}
+}

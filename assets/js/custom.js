@@ -218,6 +218,18 @@ $(document).ready(function(){
             }
         });
     });
+    $('.btn-cphi').click(function () {       
+        $.fancybox.open({
+            src  : '#popup-cost',
+            type : 'inline',
+            touch: false,
+            opts : {
+                afterShow : function( instance, current ) {
+                    // console.info( 'done!' );
+                }
+            }
+        });
+    });
 });
 
       
