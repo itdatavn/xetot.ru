@@ -264,83 +264,155 @@
 		</header>
 		<div id="main-content" class="w-100 float-left pb-5">
 			<div class="container">
-				<div class="mt-5 mb-5">
-					<a href="javascript:;" class="btn-primary btn-cphi">Chi Phí Lăn Bánh</a>
-					<div id="popup-cost" style="display: none;">
-						<h4 class="title-popup">Ước tính trả góp</h4>
-						<div class="bank-select">
-							<label>Gói vay hiện tại của ngân hàng Techcombank</label>
-							<ul class="list-unstyled d-flex justify-content-between mb-0">
-								<li class="active">
-									<img src="assets/images/cost/logo-techcombank.png">
-								</li>
-								<li>
-									<img src="assets/images/cost/logo-tpbank.png">
-								</li>
-								<li>
-									<img src="assets/images/cost/logo-acbbank.png">
-								</li>
-								<li>
-									<img src="assets/images/cost/logo-sacombank.png">
-								</li>
-							</ul>
-						</div><!--bank-select-->
-						<div class="car-price">
-							<label>Giá xe</label>
-							<div class="input-group">								
-								<input type="text" class="form-control" value="950.000.000">
-								<div class="input-group-prepend">
-									<span class="input-group-text">đ</span>
+				<div class="mt-5 mb-5">					
+					<div class="row">
+						<div class="col-4">
+							<a href="javascript:;" class="btn-primary xt-button btn-chiphi">Chi phí lăn bánh</a>
+							<div id="popup-chiphi" class="popup-xt-cost" style="display: none">
+								<h4 class="title-popup">Phí lăn bánh</h4>
+								<div class="car-price">
+									<label>Giá niêm yết</label>
+									<div class="input-group">								
+										<input type="text" class="form-control" value="950.000.000">
+										<div class="input-group-prepend">
+											<span class="input-group-text">đ</span>
+										</div>
+									</div>
+								</div>
+								<div class="car-price">
+									<label>Phí đường bộ</label>
+									<div class="input-group">								
+										<input type="text" class="form-control" value="950.000.000">
+										<div class="input-group-prepend">
+											<span class="input-group-text">đ</span>
+										</div>
+									</div>
+								</div>
+								<div class="car-price">
+									<label>Phí đăng kiểm</label>
+									<div class="input-group">								
+										<input type="text" class="form-control" value="950.000.000">
+										<div class="input-group-prepend">
+											<span class="input-group-text">đ</span>
+										</div>
+									</div>
+								</div>
+								<div class="car-before-cost">
+									<ul class="list-unstyled">
+										<li class="d-flex justify-content-between align-items-center">
+											<label>Phí trước bạ</label>
+											<select name="" id="" class="form-control">
+												<option value="">Hà Nội</option>
+												<option value="">TP HCM</option>												
+											</select>
+										</li>
+										<li class="d-flex justify-content-between align-items-center">
+											<label><span>Tương ứng</span></label>
+											<p class="mb-0"><b>95.000.000</b> đồng</p>
+										</li>
+									</ul>
+								</div>
+								<div class="car-before-cost">
+									<ul class="list-unstyled">
+										<li class="d-flex justify-content-between align-items-center">
+											<label>Đăng ký biển số</label>
+											<select name="" id="" class="form-control">
+												<option value="">Hà Nội</option>
+												<option value="">TP HCM</option>												
+											</select>
+										</li>
+										<li class="d-flex justify-content-between align-items-center">
+											<label><span>Tương ứng</span></label>
+											<p class="mb-0"><b>20.000.000</b> đồng</p>
+										</li>
+									</ul>
+								</div>
+								<div class="cost-pay">								
+									<div class="group-tg xt-button">
+										<p class="mb-0">TỔNG PHÍ LĂN BÁNH</p>
+										<span>16.337.000 đồng / tháng</span>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="car-per-year">
-							<label>Kỳ hạn<br><span>(năm)</span></label>
-							<ul class="list-unstyled d-flex align-items-center mb-0">
-								<li>1</li>
-								<li>2</li>
-								<li>3</li>
-								<li>4</li>
-								<li>5</li>
-								<li>6</li>
-								<li class="active">7</li>
-								<li>8</li>
-							</ul>
-						</div>
-						<div class="car-before-cost">
-							<ul class="list-unstyled">
-								<li class="d-flex justify-content-between align-items-center">
-									<label>Trả trước</label>
-									<select name="" id="" class="form-control">
-										<option value="">20%</option>
-										<option value="">30%</option>
-										<option value="">40%</option>
-									</select>
-								</li>
-								<li class="d-flex justify-content-between align-items-center">
-									<label><span>Tương ứng</span></label>
-									<p class="mb-0"><b>95.000.000</b> đồng</p>
-								</li>
-							</ul>
-						</div>
-						<div class="car-price car-ls">
-							<label>Lãi suất<br><span>(năm)</span></label>
-							<div class="input-group">								
-								<input type="text" class="form-control" value="6.5">
-								<div class="input-group-prepend">
-									<span class="input-group-text">%</span>
+						</div>						
+						<div class="col-4">
+							<a href="javascript:;" class="btn-primary xt-button btn-tragop">Ước tính trả góp</a>
+							<div id="popup-cost" class="popup-xt-cost" style="display: none;">
+								<h4 class="title-popup">Ước tính trả góp</h4>
+								<div class="bank-select">
+									<label>Gói vay hiện tại của ngân hàng Techcombank</label>
+									<ul class="list-unstyled d-flex justify-content-between mb-0">
+										<li class="active">
+											<img src="assets/images/cost/logo-techcombank.png">
+										</li>
+										<li>
+											<img src="assets/images/cost/logo-tpbank.png">
+										</li>
+										<li>
+											<img src="assets/images/cost/logo-acbbank.png">
+										</li>
+										<li>
+											<img src="assets/images/cost/logo-sacombank.png">
+										</li>
+									</ul>
+								</div><!--bank-select-->
+								<div class="car-price">
+									<label>Giá xe</label>
+									<div class="input-group">								
+										<input type="text" class="form-control" value="950.000.000">
+										<div class="input-group-prepend">
+											<span class="input-group-text">đ</span>
+										</div>
+									</div>
+								</div>
+								<div class="car-per-year">
+									<label>Kỳ hạn<br><span>(năm)</span></label>
+									<ul class="list-unstyled d-flex align-items-center mb-0">
+										<li>1</li>
+										<li>2</li>
+										<li>3</li>
+										<li>4</li>
+										<li>5</li>
+										<li>6</li>
+										<li class="active">7</li>
+										<li>8</li>
+									</ul>
+								</div>
+								<div class="car-before-cost">
+									<ul class="list-unstyled">
+										<li class="d-flex justify-content-between align-items-center">
+											<label>Trả trước</label>
+											<select name="" id="" class="form-control">
+												<option value="">20%</option>
+												<option value="">30%</option>
+												<option value="">40%</option>
+											</select>
+										</li>
+										<li class="d-flex justify-content-between align-items-center">
+											<label><span>Tương ứng</span></label>
+											<p class="mb-0"><b>95.000.000</b> đồng</p>
+										</li>
+									</ul>
+								</div>
+								<div class="car-price car-ls">
+									<label>Lãi suất<br><span>(năm)</span></label>
+									<div class="input-group">								
+										<input type="text" class="form-control" value="6.5">
+										<div class="input-group-prepend">
+											<span class="input-group-text">%</span>
+										</div>
+									</div>
+								</div>
+								<div class="cost-pay">								
+									<div class="group-tg xt-button">
+										<p class="mb-0">SỐ TIỀN TRẢ GÓP</p>
+										<span>16.337.000 đồng / tháng</span>
+									</div>
+								</div>
+								<div class="bottom-popup">
+									<button class="xt-button">LIÊN HỆ VAY TRẢ GÓP</button>
 								</div>
 							</div>
-						</div>
-						<div class="cost-pay">
-							
-							<div class="group-tg xt-button">
-								<p class="mb-0">SỐ TIỀN TRẢ GÓP</p>
-								<span>16.337.000 đồng / tháng</span>
-							</div>
-						</div>
-						<div class="bottom-popup">
-							<button class="xt-button">LIÊN HỆ VAY TRẢ GÓP</button>
 						</div>
 					</div>
 				</div>

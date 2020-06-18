@@ -218,9 +218,21 @@ $(document).ready(function(){
             }
         });
     });
-    $('.btn-cphi').click(function () {       
+    $('.btn-tragop').click(function () {       
         $.fancybox.open({
             src  : '#popup-cost',
+            type : 'inline',
+            touch: false,
+            opts : {
+                afterShow : function( instance, current ) {
+                    // console.info( 'done!' );
+                }
+            }
+        });
+    });
+    $('.btn-chiphi').click(function () {       
+        $.fancybox.open({
+            src  : '#popup-chiphi',
             type : 'inline',
             touch: false,
             opts : {
