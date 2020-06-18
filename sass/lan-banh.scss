@@ -1,4 +1,4 @@
-#popup-cost{
+.popup-xt-cost{
 	padding: 0;
 	max-width: 570px;
 	width: 100%;
@@ -140,5 +140,18 @@
 			font-weight: 600;
 			font-size: 14px;
 		}
+	}
+}
+#popup-chiphi{
+	height: auto;
+	.title-popup{
+		border-bottom: 0;
+	}
+	.car-price{
+		padding: 20px 30px 20px 30px;
+	}
+	.cost-pay{
+		border-top: 1px solid #E0E0E0;
+		padding: 30px;
 	}
 }

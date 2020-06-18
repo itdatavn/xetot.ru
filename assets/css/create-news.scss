@@ -795,8 +795,7 @@
 					background: url('../images/creat-news/ic-km.svg') no-repeat;
 				}
 			}
-			li.input-xs{
-				margin-right: 374px;
+			li.input-xs{				
 				&:before{
 					background: url('../images/creat-news/ic-xuatxu.svg') no-repeat;
 				}
@@ -806,10 +805,20 @@
 					background: url('../images/creat-news/ic-tai-trong.svg') no-repeat;
 				}
 			}
-			li.input-dt{
-				margin-right: 374px;
+			li.input-dt{				
 				&:before{
 					background: url('../images/creat-news/ic-dung-tich.svg') no-repeat;
+				}
+			}
+			li.input-ktk{				
+				&:before{
+					background: url('../images/creat-news/ic-kichthuockhung.svg') no-repeat;
+					top: 18px;
+				}
+			}
+			li.input-clk{				
+				&:before{
+					background: url('../images/creat-news/ic-chatlieukhung.svg') no-repeat;
 				}
 			}
 		}
