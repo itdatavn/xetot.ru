@@ -242,6 +242,18 @@ $(document).ready(function(){
             }
         });
     });
+    $('.btn-info').click(function () {       
+        $.fancybox.open({
+            src  : '#popup-info',
+            type : 'inline',
+            touch: false,
+            opts : {
+                afterShow : function( instance, current ) {
+                    // console.info( 'done!' );
+                }
+            }
+        });
+    });
 });
 
       
