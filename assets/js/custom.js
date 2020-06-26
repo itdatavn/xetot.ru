@@ -212,6 +212,7 @@ $(document).ready(function(){
             type : 'inline',
             touch: false,
             opts : {
+                touch: false,
                 afterShow : function( instance, current ) {
                     // console.info( 'done!' );
                 }
@@ -224,6 +225,7 @@ $(document).ready(function(){
             type : 'inline',
             touch: false,
             opts : {
+                touch: false,
                 afterShow : function( instance, current ) {
                     // console.info( 'done!' );
                 }

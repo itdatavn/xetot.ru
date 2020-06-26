@@ -23,19 +23,26 @@
 	.bank-select{
 		padding: 20px 30px;
 		ul{
+			overflow-x: scroll;
+			white-space: nowrap;
+			padding-bottom: 10px;
 			li{
 				border: 1px solid #DADBDB;			
 				border-radius: 8px;
 				width: 121px;
 				height: 85px;
-				display: flex;
-				align-items: center;
-				justify-content: center;
+				display: inline-block;
+				line-height: 85px;
+				text-align: center;
 			}
 			li.active{
 				border: 2px solid #61BE5A;
 				background: url('../images/cost/ic-active.svg') no-repeat;
 				background-position: -1px -2px;
+			}
+			&::-webkit-scrollbar{
+				width: 5px;
+				height: 5px;
 			}
 		}
 	}
@@ -104,7 +111,7 @@
 					margin-bottom: 10px;
 				}
 				select{
-					max-width: 180px;
+					max-width: 215px;
 					background: #FAFAFA;
 					border: 1px solid #DADBDB;
 					box-sizing: border-box;
@@ -131,6 +138,9 @@
 			height: 48px;
 			justify-content: space-between;
 			padding: 0 30px;
+			p, span{
+				font-size: 16px;
+			}			
 		}
 	}
 	.bottom-popup{
