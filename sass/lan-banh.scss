@@ -209,3 +209,41 @@
 		}
 	}
 }
+#popup-success{
+	padding: 45px 60px;
+	height: auto;
+	.top-success{
+		h4{
+			font-weight: 500;
+			font-size: 24px;
+			line-height: 29px;
+			text-align: center;
+			color: #61BE5A;
+		}
+		img{
+			text-align: center;			
+			margin: 0 auto 25px auto;
+			display: block;
+		}
+	}
+	.content-success{
+		border-top: 1px solid #E0E0E0;
+		padding-top: 25px;
+		margin-top: 25px;
+		p{
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 20px;
+			text-align: justify;
+			color: #0A0A0A;
+			margin-bottom: 35px;
+		}
+		.xt-button{
+			height: 48px;
+			max-width: 212px;
+			font-weight: 600;
+			text-transform: uppercase;
+			margin: 0 auto;
+		}
+	}
+}

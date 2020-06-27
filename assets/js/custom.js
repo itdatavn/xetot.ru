@@ -256,6 +256,18 @@ $(document).ready(function(){
             }
         });
     });
+    $('.btn-send-success').click(function () {       
+        $.fancybox.open({
+            src  : '#popup-success',
+            type : 'inline',
+            touch: false,
+            opts : {
+                afterShow : function( instance, current ) {
+                    // console.info( 'done!' );
+                }
+            }
+        });
+    });
 });
 
       
