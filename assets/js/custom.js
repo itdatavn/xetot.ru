@@ -268,6 +268,13 @@ $(document).ready(function(){
             }
         });
     });
+    $('.auto-search input').on('keyup', function(){
+        if($(this).val() == "") {
+            $('.drop-autocomplete ul').hide();
+        }else{
+            $('.drop-autocomplete ul').show();
+        }
+    });
 });
 
       

@@ -704,6 +704,53 @@ body::-webkit-scrollbar {
 	top: 15px;
 	right: 15px;
 }
+.main-search-autocomplete{
+	.auto-search{
+		position: relative;
+		input{
+			height: 40px;
+			border-radius: 8px;
+			font-size: 14px;
+		}
+		&:after{
+			position: absolute;
+			right: 0;
+			content: '';
+			background: url('../images/ic-search-home.png');
+			width: 24px;
+			height: 24px;
+			top: 7px;
+			right: 7px;
+		}
+	}
+	.drop-autocomplete{
+		position: relative;
+		ul{
+			top: 5px;
+			left: 0px;
+			position: absolute;
+			background: #fff;
+			max-height: 250px;
+			width: 100%;
+			z-index: 9;
+			transition: all .3s;
+			display: none;
+			overflow-y: auto;
+			box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+			&::-webkit-scrollbar{
+				width: 5px;
+				height: 5px;
+			}
+			li{
+				padding: 7px 16px;
+				cursor: pointer;
+				&:hover{
+					background-color: rgb(232, 232, 232) !important;
+				}
+			}
+		}
+	}
+}
 /*List Car*/
 .list-car{
 	padding: 30px 0;
@@ -730,6 +777,13 @@ body::-webkit-scrollbar {
 	margin-right: 16px;
 	position: relative;
 	overflow: hidden;
+}
+.item-car .thumb-car{
+	>img{
+		width: 190px;
+		height: 127px;
+		object-fit: cover;
+	}
 }
 .item-car .thumb-car:hover>img{
 	-webkit-transform: scale(1.12);
