@@ -705,12 +705,13 @@ body::-webkit-scrollbar {
 	right: 15px;
 }
 .main-search-autocomplete{
+	width: 100%;
+	margin-right: 16px;
 	.auto-search{
 		position: relative;
 		input{
-			height: 40px;
-			border-radius: 8px;
 			font-size: 14px;
+			max-width: 400px;
 		}
 		&:after{
 			position: absolute;
@@ -719,7 +720,7 @@ body::-webkit-scrollbar {
 			background: url('../images/ic-search-home.png');
 			width: 24px;
 			height: 24px;
-			top: 7px;
+			top: 12px;
 			right: 7px;
 		}
 	}
