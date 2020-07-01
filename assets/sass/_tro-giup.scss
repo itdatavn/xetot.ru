@@ -1,0 +1,112 @@
+.faqs-page{
+	background: #FAFAFA;
+	.faqs-content{
+		background: #fff;
+		padding: 25px 30px;
+		margin-bottom: 50px;
+		border-radius: 8px;
+	}
+	#accordion{
+		.card-header-reasons{
+			h5{
+				height: 62px;
+				background: #F9F9F9;
+				border-radius: 8px;
+				cursor: pointer;
+				font-weight: 500;
+				font-size: 18px;
+				padding: 0 25px;
+				display: flex;
+				align-items: center;
+				position: relative;
+				&:after{
+					content: '';
+					position: absolute;
+					right: 25px;
+					background: url('../images/icon/ic-accord-show.png') no-repeat;
+					width: 24px;
+					height: 24px;
+				}
+			}
+			h5.collapsed{
+				&:after{
+					background: url('../images/icon/ic-accord-hide.png') no-repeat;
+				}
+			}
+		}
+		.card-body-reasons{
+			padding: 25px;
+			ul{
+				>li{					
+					>h4{
+						font-weight: bold;
+						font-size: 16px;
+						margin-bottom: 20px;
+					}
+					ul{
+						margin-bottom: 20px;
+						li{
+							margin-bottom: 7px;
+						}
+					}
+					.all-faqs{
+						a{
+							width: 84px;
+							font-weight: 500;
+							font-size: 13px;
+							border-radius: 50px;
+							height: 29px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.faqs-detail{
+	background: #FAFAFA;
+	.fleft{
+		padding: 25px;
+		background: #fff;
+		max-width: 815px;
+		border-radius: 8px;
+		float: left;
+		width: 100%;
+		h1{
+			font-size: 22px;
+			line-height: 32px;
+		}
+		h5{
+			font-weight: 600;
+			font-size: 14px;
+			margin-bottom: 15px;
+		}
+	}
+	.fright{
+		float: right;
+		max-width: 333px;
+		width: 100%;
+		padding: 25px;
+		background: #fff;
+		border-radius: 8px;
+		.widget-menu{
+			&:not(:last-child){
+				margin-bottom: 20px;
+			}
+			h4{
+				font-weight: bold;
+				font-size: 16px;
+				line-height: 32px;
+				color: #000000;
+				margin-bottom: 10px;
+			}
+			.active{
+				color: #61BE5A;
+			}
+			ul{
+				border-left: 1px solid #C4C4C4;
+				padding-left: 15px;
+			}
+		}
+	}
+}
