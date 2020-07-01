@@ -1,0 +1,52 @@
+.history-transaction{
+	background: #FAFAFA;
+	padding-bottom: 50px;
+	.history-section{
+		background: #fff;
+		border-radius: 8px;
+		padding: 25px;
+		ul.history-filter{
+			margin-bottom: 35px;
+			li{
+				max-width: 440px;
+				width: 100%;
+				flex: none;
+				&:not(:last-child){
+					margin-right: 20px;
+				}
+				&:last-child{
+					max-width: 201px;
+				}
+				.xt-button{
+					width: 100%;
+					height: 48px;
+					background: #009FFF;
+					border-radius: 8px;					
+				}
+				select{
+					color: #929495;
+					font-size: 14px;
+					height: 48px;
+					border: 1px solid #DADBDB;
+					box-sizing: border-box;
+					border-radius: 8px;
+				}
+			}
+		}
+		.table{
+			.xt-button{
+				background: #009FFF;
+				border-radius: 5px;
+				width: 89px;
+				height: 30px;
+				font-weight: 400;
+			}
+			thead{
+				tr th{
+					background: #F9F9F9;
+					border-bottom: 0;
+				}
+			}
+		}
+	}
+}
