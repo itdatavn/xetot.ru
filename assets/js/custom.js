@@ -275,6 +275,19 @@ $(document).ready(function(){
             $('.drop-autocomplete ul').show();
         }
     });
+    $('[id^=fcheckout-]').click(function () {       
+        $.fancybox.open({
+            src  : '#popup-push',
+            type : 'inline',
+            touch: false,
+            opts : {
+                touch: false,
+                afterShow : function( instance, current ) {
+                    // console.info( 'done!' );
+                }
+            }
+        });
+    });
 });
 
       
