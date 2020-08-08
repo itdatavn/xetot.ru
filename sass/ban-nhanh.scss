@@ -36,6 +36,7 @@
 			justify-content: space-between;
 			margin-bottom: 22px;
 			cursor: pointer;
+			position: relative;
 			.scten{
 				h5{
 					font-weight: 500;
@@ -88,12 +89,28 @@
 					margin-bottom: 0;
 				}
 			}
+			.active-check{
+				display: none;
+				background: #61BE5A;
+				width: 20px;
+				height: 20px;
+				border-radius: 50%;
+				align-items: center;
+				justify-content: center;
+				position: absolute;
+				top: -8px;
+				right: -8px;
+				z-index: 888;
+			}
 		}
 		li.active{
 			border: 2px solid #61BE5A;
 			background: url('../images/fast-sell/ic-active.png') no-repeat;
 			background-size: 39px;
-			background-position: bottom -1px right -1px;
+			background-position: bottom -1px right -1px;	
+			.active-check{
+				display: flex;
+			}		
 		}
 	}
 }

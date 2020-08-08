@@ -326,6 +326,9 @@
 									<div class="scimg">
 										<img src="assets/images/fast-sell/ic-push-1.png">
 									</div>
+									<div class="active-check">
+										<img src="assets/images/fast-sell/ic-check.svg">
+									</div>
 								</li>
 								<li>
 									<div class="scten">
@@ -650,4 +653,13 @@
 <script src="assets/masterslider/masterslider.min.js"></script>
 <!-- Master Slider -->
 <script src="assets/js/custom.js"></script>
+<script>
+	$(document).ready(function() {
+	    $('.active-check').click(function() {
+	        $('.active-check.active').removeClass("active");
+	        $(this).toggleClass("active");
+	        $(this).parent('li').removeClass('active');
+	    });
+	});
+</script>
 </html>
